@@ -1,7 +1,7 @@
 extends base 
 
 block head
-    title השקעות נדל"ן בבולגריה: מאות נכסים ודירות להשקעה | דירה בולגרית
+    title השקעות נדל"ן: מאות נכסים ודירות להשקעה | Estates 
     meta(name="description" content='השקעות נדל"ן בבולגריה עושים רק עם דירה בולגרית! חברה המציעה מאות נכסים ודירות להשקעה בבולגריה, וליווי מקצועי משלב החיפוש ועד שלב קבלת המפתח. לפרטים לחצו >>')
     meta(name="robots" content="index, follow")
     link(rel="canonical" href="https://www.dirabulgarit.co.il")
@@ -9,7 +9,7 @@ block head
     link(rel="alternate" href="https://www.dirabulgarit.co.il/en" hreflang="en")
     link(rel="alternate" href="https://www.dirabulgarit.co.il/ru" hreflang="ru")
     
-    meta(property="og:title" content="השקעות נדל\"ן בבולגריה: מאות נכסים ודירות להשקעה | דירה בולגרית")
+    meta(property="og:title" content="השקעות נדל\"ן: מאות נכסים ודירות להשקעה | Estates")
     meta(name='description' content='השקעות נדל"ן בבולגריה עושים רק עם דירה בולגרית! חברה המציעה מאות נכסים ודירות להשקעה בבולגריה, וליווי מקצועי משלב החיפוש ועד שלב קבלת המפתח. לפרטים לחצו >>')
     meta(property="og:image" content='/img/hero-burgas.webp')
     meta(property="og:image:width" content="1200")
@@ -17,22 +17,13 @@ block head
     include _headLinksScripts
 
 block content 
-    
-    //- .container-fluid.webinar-mainpage-container
-    //-     .row.webinar-mainpage-row.justify-content-center
-    //-         .col-10.webinar-mainpage-col.text-center
-    //-             a.webinar-mainpage-text(href='/webinar' dir='rtl') 
-    //-                 | וובינר השקעות הנדל"ן הגדול של נדל"ן ישראלי בבולגריה - דירה בולגרית יוצא לדרך 
-    //-                 span יום חמישי | 7.11.24 | 20:30 | zoom 
-    //-                 | לחצו להרשמה ופרטים נוספים
-    
     .container-fluid.hero-container(role="img" aria-labelledby="heroDescription")
         .row.d-flex.align-items-center.justify-content-center                    
             .col-10.col-lg-8.hero-text-col 
                 .hero-border
-                h1.hero-headline(dir='rtl') השקעות נדל"ן בבולגריה
+                h1.hero-headline(dir='rtl') השקעות נדל"ן
                 .hero-border.hero-bottom-border
-                div.hero-text(dir='rtl') דירה בולגרית - אתר הנדל"ן הבולגרי הגדול בישראל 
+                div.hero-text(dir='rtl') Estates - אתר הנדל"ן הגדול בישראל 
         .row.hero-icons-row
             .col-6.col-xl-3.hero-icon-col
                 img.hero-icon(src='/img/icons/house-svgrepo-com-hero-white.svg' alt='House icon' loading='lazy') 
@@ -45,7 +36,7 @@ block content
                 .hero-icon-text(dir='rtl') תשואה יציבה ואטרקטיבית        
             .col-6.col-xl-3.hero-icon-col
                 img.hero-icon(src='/img/icons/money-bag-euro-svgrepo-com-hero-white.svg' alt='Euro money bag icon' loading='lazy') 
-                .hero-icon-text(dir='rtl') השקעה במדינה מתפתחת באיחוד האירופאי       
+                .hero-icon-text(dir='rtl') השקעה בנכסים ברחבי העולם     
         .row.hero-contact-us-row   
             .col-10.col-lg-8.hero-contact-us-col    
                 button.btn-cta-white.to-calendly-btn(aria-label='מעבר לעמוד יצירת קשר') צרו קשר   
@@ -83,8 +74,8 @@ block content
         .row.mainpage-about-row.align-items-center
             .col-10.col-lg-8.mainpage-about-text-col
                 h2.mainpage-about-tag מי אנחנו
-                h3.mainpage-about-headline(dir='rtl') דירה בולגרית מבית Invest Cafe
-                div.mainpage-about-text(dir='rtl') צוות מקצועי ועתיר ניסיון - מלווה משקיעים ישראלים בדרך להשקעות מוצלחות בשוק הנדל"ן הבולגרי. ליווי משלב ההתעניינות ועד קבלת המפתח.
+                h3.mainpage-about-headline(dir='rtl') Estates
+                div.mainpage-about-text(dir='rtl') צוות מקצועי ועתיר ניסיון - מלווה משקיעים ישראלים בדרך להשקעות מוצלחות בשוק הנדל"ן. ליווי משלב ההתעניינות ועד קבלת המפתח.
             .col-10.col-lg-8.mainpage-about-button-col 
                 .row.justify-content-center 
                     .col-12.col-sm-4.my-4
@@ -95,7 +86,7 @@ block content
             .col-12.mainpage-howitworks-maintext--col
                 h2.mainpage-howitworks-label התהליך
                 h3.mainpage-howitworks-mainheadline איך זה עובד     
-                div.mainpage-howitworks-maintext דירה בולגרית מלווה באופן אישי ופרטני את לקוחותיה לאורך כל תהליך רכישת הנכס החל משלב החיפוש ועד שלב סגירת העסקה     
+                div.mainpage-howitworks-maintext ליווי באופן אישי ופרטני את לקוחותיה לאורך כל תהליך רכישת הנכס החל משלב החיפוש ועד שלב סגירת העסקה     
             .col-12.col-md-6.col-xl-6.col.mainpage-howitworks-steps--col
                 div.mainpage-howitworks-icon--background
                     svg.bi.mainpage-howitworks-icon(aria-labelledby="howItWorkIconClipboard")
@@ -123,7 +114,7 @@ block content
                         title(id="howItWorkIconSearch") אייקון של זכוכית מגדלת
                         use(xlink:href='/img/icons/search.svg#search')
                 div.mainpage-howitworks-headline בדיקה משפטית       
-                div.mainpage-howitworks-text נערוך בדיקה משפטית מקיפה של הנכס בעזרת הייעוץ המשפטי שלנו בבולגריה      
+                div.mainpage-howitworks-text נערוך בדיקה משפטית מקיפה של הנכס בעזרת הייעוץ המשפטי שלנו      
 
     .container-fluid.mainpage-why-bulgaria-container
         .row.mainpage-why-bulgaria-row.align-items-center.justify-content-center 
@@ -133,8 +124,8 @@ block content
                     span.visually-hidden(id="whyBulgariaDescription") וידאו שמראה את העיר בורגס ממבט על
                 div.mainpage-why-bulgaria-text-container.w-75.text-center       
                     h2.mainpage-why-bulgaria-tag השקעה          
-                    h3.mainpage-why-bulgaria-headline(dir='rtl') אז למה בולגריה?
-                    div.mainpage-why-bulgaria-text(dir='rtl') הכלכלה הבולגרית נמצאת בצמיחה מתמדת שנובעת מריבוי ההשקעות במדינה ובחברותה באיחוד האירופי. מחירי הנדל"ן במדינה הינם נגישים וישנה תשואה גבוהה על ההשכרה, ביחוד באזורים התיירותיים כמו בורגס ובנסקו. הכנו עבורכם מדריך השקעה מפורט בכדי לעזור לכם בצעדים הראשונים לעבר העסקה הנחשקת.
+                    h3.mainpage-why-bulgaria-headline(dir='rtl') אז למה להשקיע בנדל"ן?
+                    div.mainpage-why-bulgaria-text(dir='rtl') הכלכלה נמצאת בצמיחה מתמדת, בין היתר בזכות ריבוי ההשקעות וההתפתחות הגלובלית בשוק. מחירי הנדל"ן במקומות רבים בעולם עדיין נגישים יחסית, ובאזורים מסוימים ניתן ליהנות מתשואה גבוהה על השכרה – במיוחד בערים מרכזיות ובמוקדים תיירותיים. הכנו עבורכם מדריך השקעה מפורט שיסייע לכם בצעדים הראשונים לעבר העסקה הנכונה והמשתלמת ביותר.
                 div.invest-guide-btn-container
                     button.invest-guide-btn למדריך ההשקעה
             
@@ -145,88 +136,34 @@ block content
                 h3.mainpage-rec-headline מה אומרים עלינו
             .col-12.col-md-10.reviews-carousel-col           
                 #reviewsCarousel.carousel.slide.text-center.reviews-carousel(data-bs-touch='true' data-bs-interval='15000' data-bs-ride='carousel')
-                    .carousel-inner.reviews-carousel-inner
+                    .carousel-inner.reviews-carousel-inner    
                         .carousel-item.active.reviews-carousel-item.he-reviews-carousel-item
                             .row.d-flex.justify-content-center.align-items-center
                                 .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-tatiana-k.webp' alt='תמונה של הממליצה טטיאנה ק' loading='lazy')
+                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/avatar-img-1.webp' alt='תמונה של הממליצה מרינה פ' loading='lazy')
                                 .col-md-7.col-xl-8.text-center
                                     .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') טטיאנה ק.
-                                        div.mainpage-reviews-prof(dir='rtl') עובדת סוציאלית
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "לאחרונה השלמנו עסקת רכישת דירת סטודיו בבולגריה דרך חברת אינווסט קפה ואנו רוצים לשתף בחוויה החיובית. מההתחלה, הצוות הפגין רמה גבוהה של מקצועיות. הסבירו לנו בפירוט את כל שלבי העסקה, סייעו בבחירת אפשרויות התואמות לתקציב ולרצונות שלנו. במיוחד שמחנו שהיועצים של החברה (ובמיוחד ויטה ליפשיץ) מכירים היטב את המורכבויות המשפטיות והמנהליות המקומיות, מה שפשט מאוד את התהליך. התקשורת הייתה תמיד מעולה - קיבלנו מענה מהיר לכל השאלות, המסמכים הוכנו בזמן, והתהליך כולו עבר ללא הפתעות. כמו כן, יש לציין שהם ליוו אותנו עד לחתימה על החוזה. אנו מרוצים מהבחירה שלנו ומביעים תודה לאינווסט קפה על היושר, השקיפות והתמיכה בכל השלבים. אם אתם שוקלים רכישת נדל"ן בבולגריה - אנו ממליצים בחום על החברה הזו."
+                                        div.mainpage-reviews-name(dir='rtl') נחום רובין
+                                        div.mainpage-reviews-prof(dir='rtl') מפקח בנייה
+                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "חוויית שירות מצוינת! מצאתי נכס מדהים בחו"ל בעזרת הצוות המקצועי של האתר — ליווי אישי, אמין ויעיל לאורך כל הדרך."
                         .carousel-item.reviews-carousel-item.he-reviews-carousel-item
                             .row.d-flex.justify-content-center.align-items-center
                                 .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-miriam-k.webp' alt='תמונה של הממליצה מרים ק' loading='lazy')
+                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/avatar-img-2.webp' alt='תמונה של הממליצה גוזל' loading='lazy')
                                 .col-md-7.col-xl-8.text-center
                                     .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') מרים ק.
-                                        div.mainpage-reviews-prof(dir='rtl')
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "רכישת נדל"ן בגאורגיה דרך אינווסט קפה הותירה רשמים חיוביים. הסוכנות ארגנה טיול לבחירת הנכס: הסעות, לינה וביקורים תוכננו בצורה מדויקת. העובדים היו זמינים תמיד, סיפקו ייעוץ מקצועי וסייעו עם המסמכים. הכל עבר במהירות, בנוחות וללא מתח. אני ממליצה על אינווסט קפה כסוכנות אמינה להשקעות בגאורגיה."
+                                        div.mainpage-reviews-name(dir='rtl') אלון כהן
+                                        div.mainpage-reviews-prof(dir='rtl') מתכנת
+                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "לא חשבתי שתהליך רכישת נכס בחו"ל יכול להיות כל כך פשוט! האתר סייע לי למצוא דירה שמתאימה בדיוק למה שחיפשתי, ונתן מענה לכל שאלה – מהבדיקה הראשונית ועד חתימת החוזה. ממליץ בחום לכל מי שמעוניין להשקיע בנדל"ן ברחבי העולם."
                         .carousel-item.reviews-carousel-item.he-reviews-carousel-item
                             .row.d-flex.justify-content-center.align-items-center
                                 .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-marina-f.webp' alt='תמונה של הממליצה מרינה פ' loading='lazy')
+                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/avatar-img-3.webp' alt='תמונה של הממליץ אלכס נ' loading='lazy')
                                 .col-md-7.col-xl-8.text-center
                                     .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') מרינה פ.
+                                        div.mainpage-reviews-name(dir='rtl') קארין גרין
                                         div.mainpage-reviews-prof(dir='rtl') מעצבת פנים
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "אדם נלהב, מלא תשוקה, שחי את המקצוע שלו ניכר מיד. ויטה היא אדם מדהים ומקצועית ברמה גבוהה. חשוב מאוד שכל מה שהיא מציעה מבוסס על ניסיונה האישי. היא חולקת את הידע והניסיון שלה בצורה כנה ונדיבה, ולכן נוצרת תחושת אמון מלא, כבוד והערצה למקצועיות שלה! אני מקווה מאוד שהחוויה שלי ברכישת נדל"ן בבולגריה היא רק ההתחלה. יהיו עוד יוון, קפריסין, איטליה... בקיצור, נהניתי והכל רק מתחיל!"
-                        .carousel-item.reviews-carousel-item.he-reviews-carousel-item
-                            .row.d-flex.justify-content-center.align-items-center
-                                .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-guzel.webp' alt='תמונה של הממליצה גוזל' loading='lazy')
-                                .col-md-7.col-xl-8.text-center
-                                    .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') גוזל
-                                        div.mainpage-reviews-prof(dir='rtl') מתכנתת תלת-ממד
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "ויטה מקסימה! נעימה מאוד בתקשורת, מוכשרת ומקצועית, עונה על כל השאלות, גם המורכבות ביותר. רכשנו איתה דירה ביוון והיא ליוותה אותנו בכל שלב, תמיד הייתה זמינה, פתרה את כל הבעיות במהלך העסקה. נשארנו מרוצים מאוד. ויטה, תודה לך! ומאחלים לך הצלחה נוספת בעסקים!"
-                        .carousel-item.reviews-carousel-item.he-reviews-carousel-item
-                            .row.d-flex.justify-content-center.align-items-center
-                                .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-alex-n.webp' alt='תמונה של הממליץ אלכס נ' loading='lazy')
-                                .col-md-7.col-xl-8.text-center
-                                    .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') אלכס נ.
-                                        div.mainpage-reviews-prof(dir='rtl') מפתח תוכנה
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "רכשתי דירה דרך אינווסט קפה. הם היו מועילים להפליא בכל שלב, אפילו עם קבלת משכנתא בישראל. הם באמת יודעים את העבודה שלהם. אם אתם מחפשים לרכוש נדל"ן בחו"ל, אלה האנשים שלכם!"
-                        .carousel-item.reviews-carousel-item.he-reviews-carousel-item
-                            .row.d-flex.justify-content-center.align-items-center
-                                .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-stas-k.webp' alt='תמונה של הממליץ סטס ק' loading='lazy')
-                                .col-md-7.col-xl-8.text-center
-                                    .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') סטס ק.
-                                        div.mainpage-reviews-prof(dir='rtl') מנהל אבטחת איכות
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "רכשתי דירה ביוון ובבולגריה דרך אינווסט קפה, ואני יכול לומר בביטחון שזו הייתה חוויה מצוינת. הסוכנות סיפקה שירות יוצא דופן בכל שלבי העסקה, כולל סיוע בקבלת משכנתא. לצוות יש ידע עמוק בשוק והם עובדים עם היזמים הטובים ביותר ביוון ובבולגריה. מה שהרשים אותי במיוחד היה מייסדת החברה – אנליסטית שוק אמיתית עם הבנה עמוקה של הדינמיקה והמגמות שלו. אינווסט קפה לא רק מצאו לי עסקאות מצוינות, אלא גם סיפקו ייעוץ חשוב לגבי מקסום רווחים ותכנון השקעות לטווח ארוך. אני ממליץ בחום על אינווסט קפה לכל מי שמחפש שותף אמין לרכישת נדל"ן בחו"ל. איתם, תהליך הרכישה חלק ונעים, והתוצאות עולות על הציפיות!"
-                        .carousel-item.reviews-carousel-item.he-reviews-carousel-item
-                            .row.d-flex.justify-content-center.align-items-center
-                                .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-alexander-m.webp' alt='תמונה של הממליץ אלכסנדר ל' loading='lazy')
-                                .col-md-7.col-xl-8.text-center
-                                    .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') אלכסנדר ל.
-                                        div.mainpage-reviews-prof(dir='rtl') מוזיקאי
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "ויטה היא מומחית נפלאה ומחושבת בתחומה. השתתפתי בקורס המקוון שלה בנושא השקעות ונועצתי בה מספר פעמים בטלפון. אני יכול להמליץ עליה בביטחון כמקצוענית אחראית ואמינה."
-                        .carousel-item.reviews-carousel-item.he-reviews-carousel-item
-                            .row.d-flex.justify-content-center.align-items-center
-                                .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-rami-p.webp' alt='תמונה של הממליץ נדב פ' loading='lazy')
-                                .col-md-7.col-xl-8.text-center
-                                    .reviews-text-wrapper.text-center
-                                        div.mainpage-reviews-name(dir='rtl') נדב פ.
-                                        div.mainpage-reviews-prof(dir='rtl') רואה חשבון
-                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "רכשתי דרך אינווסט קפה דירה דירה בבולגריה, ואני יכול לומר בביטחון שזו הייתה חוויה מצוינת. הסוכנות סיפקה שירות יוצא דופן בכל שלבי העסקה, כולל סיוע בקבלת משכנתא. הצוות בעל ידע עמוק בשוק ופועל עם הקבלנים והיזמים הטובים ביותר ביוון ובבולגריה. מי שהרשימה אותי במיוחד היא מייסדת החברה – אנליסטית אמיתית של שוק הנדל"ן, עם הבנה עמוקה של המאפיינים והמגמות שלו. אינווסט קפה לא רק שמצאו לי עסקאות מצוינות, אלא גם נתנו לי ייעוץ חשוב לגבי מקסום רווחים ותכנון השקעות לטווח ארוך. אני ממליץ בחום על אינווסט קפה לכל מי שמחפש שותף אמין לרכישת נדל"ן בחו"ל. איתם תהליך הרכישה פשוט, נעים – והתוצאה עולה על כל הציפיות!"
-                        .carousel-item.reviews-carousel-item.he-reviews-carousel-item
-                            .row.d-flex.justify-content-center.align-items-center
-                                .col-12.col-md-5.col-xl-4.d-flex.justify-content-center.align-items-center
-                                    img.shadow-1-strong.mainpage-reviews-img(src='/img/rec-profile-img-anna-v.webp' alt='תמונה של הממליצה אנה ו' loading='lazy')
-                                .col-md-7.col-xl-8.text-center
-                                    .reviews-text-wrapper.text-center(dir='rtl')
-                                        div.mainpage-reviews-name אנה ו.
-                                        div.mainpage-reviews-prof מומחית UI/UX
-                                        div.mainpage-reviews-review.fst-italic "תודה ענקית לויטה על העזרה המדהימה ברכישת דירת סטודיו בבולגריה! מההתחלה הרגשתי ביטחון, תמיכה ומעורבות כנה. ויטה תמיד הייתה זמינה, ענתה על כל השאלות, סייעה עם המסמכים ובחרה אפשרויות תוך התחשבות בכל המשאלות שלי. בזכותה התהליך עבר בקלות, בשלווה וללא מתח. קיבלתי בדיוק את מה שחלמתי עליו! אני ממש שמחה שפניתי דווקא אליה, וממליצה בחום על ויטה לכל מי שמחפש מומחית אמינה וקשובה!"
+                                        div.mainpage-reviews-review.fst-italic(dir='rtl') "לאחר חיפושים ממושכים אחר השקעה משתלמת בחו"ל, הגעתי לאתר הזה ומהר מאוד הבנתי שהגעתי למקום הנכון. הצוות היה סבלני, מקצועי וזמין בכל עת – עזרו לי להבין את השוק המקומי, בדקו עבורי אפשרויות שונות, והפגישו אותי עם אנשי מקצוע אמינים במדינת היעד. בסופו של דבר רכשתי נכס שמניב תשואה מצוינת ואני בהחלט מתכננת להשקיע שוב דרכם בעתיד. תודה על שירות ברמה בינלאומית!"
                     button.carousel-control-prev(type='button' data-bs-target='#reviewsCarousel' data-bs-slide='prev')
                         span.carousel-control-prev-icon.mainpage-reviews-carousel-prev-icon(aria-hidden='true')
                         span.visually-hidden Previous
@@ -234,117 +171,117 @@ block content
                         span.carousel-control-next-icon.mainpage-reviews-carousel-next-icon(aria-hidden='true')
                         span.visually-hidden Next
 
-    //- .container-fluid.mainpage-pricing-container.justify-content-center              
-    //-     .row.mx-4.justify-content-center.mainpage-pricing-headline-row
-    //-         .col-12.pricing-maintext-col.text-center
-    //-             h2.pricing-tag לבחירתכם 
-    //-             h3.mainpage-pricing-headline מחירון חבילות ליווי                        
-    //-     .row.justify-content-center.pricing-cards-row.flex-md-row-reverse               
-    //-         .col-12.col-sm-7.col-md-6.col-lg-4.col-xl-4.col-xxl-3.mx-xxl-5.p-xxs-0.p-med-1
-    //-             .card.pricing-card-basic
-    //-                 .card-body
-    //-                     .container-fluid
-    //-                         .row.pricing-card-body-row
-    //-                             .col-12
-    //-                                 .card-title.pricing-card-main-title(dir='rtl') בסיס
-    //-                                 .card-title.pricing-card-secondary-title(dir='rtl') איתור הנכס ואיסוף מסמכים
-    //-                                 .card-title.pricing-card-tertiary-title(dir='rtl') 3000€ + מע"מ
-    //-                             .col-12.my-5
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
-    //-                                     span.pricing-card-text איתור נכס על פי נתוני ודרישות הלקוח
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי') 
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3       
-    //-                                     span.pricing-card-text סיור פיזי או סיור און ליין
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
-    //-                                     span.pricing-card-text בדיקה משפטית של הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text ליקוט ניירת משפטית של הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3  
-    //-                                     span.pricing-card-text כתיבת חוזה ראשוני עם עורך דין 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text כתיבת וחתימת חוזה סופי בלשכת נטוריון
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון שלי איקס')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text ליווי הלקוח בפתיחת חשבון בנק 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text השכרת הנכס וניהול הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')                                      
-    //-         .col-12.col-sm-7.col-md-6.col-lg-4.col-xl-4.col-xxl-3.mx-xxl-5
-    //-             .card.pricing-card-plus
-    //-                 .card-body
-    //-                     .container-fluid
-    //-                         .row.pricing-card-body-row
-    //-                             .col-12
-    //-                                 .card-title.pricing-card-main-title(dir='rtl') פלוס
-    //-                                 .card-title.pricing-card-secondary-title(dir='rtl') סגירת חוזה ופתיחת חשבון בנק
-    //-                                 .card-title.pricing-card-tertiary-title(dir='rtl') 3990€ + מע"מ
-    //-                             .col-12.my-5
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
-    //-                                     span.pricing-card-text איתור נכס על פי נתוני ודרישות הלקוח
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי') 
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3       
-    //-                                     span.pricing-card-text סיור פיזי או סיור און ליין
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
-    //-                                     span.pricing-card-text בדיקה משפטית של הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text ליקוט ניירת משפטית של הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3  
-    //-                                     span.pricing-card-text כתיבת חוזה ראשוני עם עורך דין 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text כתיבת וחתימת חוזה סופי בלשכת נטוריון
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text ליווי הלקוח בפתיחת חשבון בנק 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text השכרת הנכס וניהול הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')                                    
-    //-         .col-12.col-sm-7.col-md-6.col-lg-4.col-xl-4.col-xxl-3.mx-xxl-5
-    //-             .card.pricing-card-premium
-    //-                 .card-body
-    //-                     .container-fluid
-    //-                         .row.pricing-card-body-row
-    //-                             .col-12.justify-content-center.pricing-premium-col 
-    //-                                 .span.badge.pricing-premium-badge המשתלם ביותר 
-    //-                                 .card-title.pricing-card-main-title(dir='rtl') פרימיום
-    //-                                 .card-title.pricing-card-secondary-title(dir='rtl') ליווי צמוד לאורך כל הדרך וניהול הנכס
-    //-                                 .card-title.pricing-card-tertiary-title(dir='rtl') 4990€ + מע"מ
-    //-                             .col-12.my-5
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
-    //-                                     span.pricing-card-text איתור נכס על פי נתוני ודרישות הלקוח
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי') 
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3       
-    //-                                     span.pricing-card-text סיור פיזי או סיור און ליין
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
-    //-                                     span.pricing-card-text בדיקה משפטית של הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text ליקוט ניירת משפטית של הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3  
-    //-                                     span.pricing-card-text כתיבת חוזה ראשוני עם עורך דין 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text כתיבת וחתימת חוזה סופי בלשכת נטוריון
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text ליווי הלקוח בפתיחת חשבון בנק 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
-    //-                                 div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
-    //-                                     span.pricing-card-text השכרת הנכס וניהול הנכס 
-    //-                                     img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')    
-    //-         .col-12.text-center.py-5    
-    //-             button.btn-cta.pricing-cta-btn.to-calendly-btn(aria-label='מעבר לעמוד יצירת קשר') צרו קשר 
+    .container-fluid.mainpage-pricing-container.justify-content-center              
+        .row.mx-4.justify-content-center.mainpage-pricing-headline-row
+            .col-12.pricing-maintext-col.text-center
+                h2.pricing-tag לבחירתכם 
+                h3.mainpage-pricing-headline מחירון חבילות ליווי                        
+        .row.justify-content-center.pricing-cards-row.flex-md-row-reverse               
+            .col-12.col-sm-7.col-md-6.col-lg-4.col-xl-4.col-xxl-3.mx-xxl-5.p-xxs-0.p-med-1
+                .card.pricing-card-basic
+                    .card-body
+                        .container-fluid
+                            .row.pricing-card-body-row
+                                .col-12
+                                    .card-title.pricing-card-main-title(dir='rtl') בסיס
+                                    .card-title.pricing-card-secondary-title(dir='rtl') איתור הנכס ואיסוף מסמכים
+                                    .card-title.pricing-card-tertiary-title(dir='rtl') 3000€ + מע"מ
+                                .col-12.my-5
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
+                                        span.pricing-card-text איתור נכס על פי נתוני ודרישות הלקוח
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי') 
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3       
+                                        span.pricing-card-text סיור פיזי או סיור און ליין
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
+                                        span.pricing-card-text בדיקה משפטית של הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text ליקוט ניירת משפטית של הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3  
+                                        span.pricing-card-text כתיבת חוזה ראשוני עם עורך דין 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text כתיבת וחתימת חוזה סופי בלשכת נטוריון
+                                        img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון שלי איקס')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text ליווי הלקוח בפתיחת חשבון בנק 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text השכרת הנכס וניהול הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')                                      
+            .col-12.col-sm-7.col-md-6.col-lg-4.col-xl-4.col-xxl-3.mx-xxl-5
+                .card.pricing-card-plus
+                    .card-body
+                        .container-fluid
+                            .row.pricing-card-body-row
+                                .col-12
+                                    .card-title.pricing-card-main-title(dir='rtl') פלוס
+                                    .card-title.pricing-card-secondary-title(dir='rtl') סגירת חוזה ופתיחת חשבון בנק
+                                    .card-title.pricing-card-tertiary-title(dir='rtl') 3990€ + מע"מ
+                                .col-12.my-5
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
+                                        span.pricing-card-text איתור נכס על פי נתוני ודרישות הלקוח
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי') 
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3       
+                                        span.pricing-card-text סיור פיזי או סיור און ליין
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
+                                        span.pricing-card-text בדיקה משפטית של הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text ליקוט ניירת משפטית של הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3  
+                                        span.pricing-card-text כתיבת חוזה ראשוני עם עורך דין 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text כתיבת וחתימת חוזה סופי בלשכת נטוריון
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text ליווי הלקוח בפתיחת חשבון בנק 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text השכרת הנכס וניהול הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/xmark-large-svgrepo-com.svg' alt='אייקון של איקס')                                    
+            .col-12.col-sm-7.col-md-6.col-lg-4.col-xl-4.col-xxl-3.mx-xxl-5
+                .card.pricing-card-premium
+                    .card-body
+                        .container-fluid
+                            .row.pricing-card-body-row
+                                .col-12.justify-content-center.pricing-premium-col 
+                                    .span.badge.pricing-premium-badge המשתלם ביותר 
+                                    .card-title.pricing-card-main-title(dir='rtl') פרימיום
+                                    .card-title.pricing-card-secondary-title(dir='rtl') ליווי צמוד לאורך כל הדרך וניהול הנכס
+                                    .card-title.pricing-card-tertiary-title(dir='rtl') 4990€ + מע"מ
+                                .col-12.my-5
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
+                                        span.pricing-card-text איתור נכס על פי נתוני ודרישות הלקוח
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי') 
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3       
+                                        span.pricing-card-text סיור פיזי או סיור און ליין
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3
+                                        span.pricing-card-text בדיקה משפטית של הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text ליקוט ניירת משפטית של הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3  
+                                        span.pricing-card-text כתיבת חוזה ראשוני עם עורך דין 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון של וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text כתיבת וחתימת חוזה סופי בלשכת נטוריון
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text ליווי הלקוח בפתיחת חשבון בנק 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')
+                                    div.card-text-container.d-flex.align-content-center.justify-content-end.py-3    
+                                        span.pricing-card-text השכרת הנכס וניהול הנכס 
+                                        img.card-icon.pricing-card-icon(src='/img/icons/check-svgrepo-com.svg' alt='אייקון שלי וי')    
+            .col-12.text-center.py-5    
+                button.btn-cta.pricing-cta-btn.to-calendly-btn(aria-label='מעבר לעמוד יצירת קשר') צרו קשר 
 
     .container-fluid.mainpage-blog-container
         .row.mainpage-blog-headline-row.d-felx.justify-content-center

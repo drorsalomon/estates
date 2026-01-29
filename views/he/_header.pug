@@ -9,10 +9,10 @@ nav.navbar.navbar-expand-xl.fixed-top
           span.navbar-call-us-text(dir='rtl') התקשרו: 
           img.navbar-mobile-icon(src='/img/icons/navbar-mobile-phone-white.svg' alt='Phone Icon' loading='lazy') 
           br
-          a.navbar-call-us-text(href="tel:0545796456") 054-579-6456
+          a.navbar-call-us-text(href="tel:0546398183") 054-639-8138
       .col-4.mobile-navbar-col.align-content-center.text-end
         a.navbar-brand.mobile-navbar-brand(href='/')
-          img.navbar-logo(src='/img/invest-cafe-logo.png' alt='לוגו של דירה בולגרית' loading='lazy')  
+          img.navbar-logo.mobile-navbar-logo(src='/img/logo.png' alt='לוגו של Estates')  
     div.offcanvas.offcanvas-end.w-auto.text-end(tabindex='-1' id='navbarContent' aria-labelledby='offcanvasNavbarLabel')
       div.offcanvas-body
         div.btn-cta--container
@@ -52,14 +52,14 @@ nav.navbar.navbar-expand-xl.fixed-top
               ul.dropdown-menu.currency-dropdown-menu
                 li.currency-dropdown-menu-item 
                   img.navbar-currency-icon.navbar-not-active-currency-icon(src='' alt='' loading='lazy') 
-          //- li.nav-item
-          //-   a.nav-link.nav-el(href='/pricing') מחירון
+          li.nav-item
+            a.nav-link.nav-el(href='/pricing') מחירון
           li.nav-item
             a.nav-link.nav-el.blog-nav-link חשוב לדעת
           li.nav-item
             a.nav-link.nav-el(href='/about') מי אנחנו
           li.nav-item
-            a.nav-link.nav-el(href='/invest') איך להשקיע בבולגריה
+            a.nav-link.nav-el(href='/invest') מדריך השקעה
           li.nav-item
             a.nav-link.nav-el(href='/qanda') שאלות ותשובות
           li.nav-item.dropdown.assets-catalog-dropdown
@@ -71,56 +71,37 @@ nav.navbar.navbar-expand-xl.fixed-top
                 a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') פרויקטים
                 ul.dropdown-menu.projects-dropdown-menu.text-start
                   li.dropdown-submenu.projects-dropdown
-                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-burgas-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') בורגס
+                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-burgas-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') עיר 1
                     ul.dropdown-menu.projects-dropdown-menu.text-start
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='atlas-azimuth') Atlas Azimuth
-                      //- li
-                      //-   a.nav-link.dropdown-item.projects-dropdown-item(href='/project/atlantis-aria-2' data-slug='atlantis-aria-2') Atlantis Aria 2
-                      //- li
-                      //-   a.nav-link.dropdown-item.projects-dropdown-item(href='/project/atlantis-aria-3' data-slug='atlantis-aria-3') Atlantis Aria 3
-                      //- li
-                      //-   a.nav-link.dropdown-item.projects-dropdown-item(href='/project/atlantis-euphoria' data-slug='atlantis-euphoria') Atlantis Euphoria
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                   li.dropdown-submenu.projects-dropdown
-                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-sveti-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') סווטי ולאס
+                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-sveti-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') עיר 2
                     ul.dropdown-menu.projects-dropdown-menu.text-start        
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='fort-noks-premier-suites') Fort Noks Premier Suites
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='premier-fort-beach') Premier Fort Beach
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-fort-beach') Prestige Fort Beach
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='lighthouse-premium-apartments') Lighthouse Premium Apartments
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                   li.dropdown-submenu.projects-dropdown
-                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-nessebar-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') נסבר
+                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-nessebar-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') עיר 3
                     ul.dropdown-menu.projects-dropdown-menu.text-start        
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='nessebar-fort-residence') Nessebar Fort Residence
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                   li.dropdown-submenu.projects-dropdown
-                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-sunny-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') סאני ביץ'
+                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-sunny-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') עיר 4
                     ul.dropdown-menu.projects-dropdown-menu.text-start        
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='green-fort-suites') Green Fort Suites
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
                   li.dropdown-submenu.projects-dropdown
-                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-sinemorets-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') סינמורטס
+                    a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-sinemorets-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') עיר 5
                     ul.dropdown-menu.projects-dropdown-menu.text-start        
                       li
-                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='sinemorets-villas') Sinemorets Villas
-                  //- li.dropdown-submenu.projects-dropdown
-                  //-   a.nav-link.dropdown-item.dropdown-toggle.projects-dropdown-btn.project-bansko-dropdown-btn.text-end(role="button" aria-expanded="false" dir='rtl') בנסקו
-                  //-   ul.dropdown-menu.projects-dropdown-menu.text-start        
-                  //-     li            
-          //- li.nav-item.dropdown.assets-catalog-dropdown
-          //-   a.nav-link.dropdown-toggle.assets-catalog-dropdown-btn(role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label='פתיחת תפריט פרויקטים' dir='rtl') וובינר 
-          //-   ul.dropdown-menu.assets-catalog-dropdown-menu
-          //-     li
-          //-       a.nav-link.dropdown-item.assets-catalog-dropdown-item.text-end(href='/webinar-signup') וובינר 2025            
-          //-     li
-          //-       a.nav-link.dropdown-item.assets-catalog-dropdown-item.text-end(href='/webinar-archive') ארכיון וובינרים            
-          //- li.nav-item
-          //-   a.nav-link.nav-el(href='/search') חיפוש נכס
+                        a.nav-link.dropdown-item.projects-dropdown-item(data-slug='prestige-estates') Prestige Estates
           li.nav-item
-            a.nav-link.nav-el.homepage-link(href='/') Invest Cafe
+            a.nav-link.nav-el.homepage-link(href='/') בית
     a.navbar-brand.laptop-navbar-brand(href='/')
-      img.navbar-logo(src='/img/invest-cafe-logo.png' alt='לוגו של דירה בולגרית')    
+      img.navbar-logo(src='/img/logo.png' alt='לוגו של Estates')    

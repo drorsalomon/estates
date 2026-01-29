@@ -13,35 +13,15 @@ window.onload = function () {
   }
   // Widgets
   if (config.Elements.whatsappWidget) {
-    const enableWidget = document.getElementById('enable-toolbar-trigger');
-    const enableWidgetIcon = document.getElementById('enable-toolbar-trigger-svg');
     if (window.innerWidth >= 300 && window.innerWidth < 576) {
       config.Elements.whatsappWidget.style.display = 'block';
       config.Elements.whatsappWidget.style.bottom = '125px';
-
-      enableWidget.style.display = 'block';
-      enableWidget.style.top = '-120px';
-      enableWidget.style.left = '-3px !important';
-      enableWidgetIcon.style.height = '30px';
-      enableWidgetIcon.style.width = '30px';
     } else if (window.innerWidth >= 576 && window.innerWidth < 768) {
       config.Elements.whatsappWidget.style.display = 'block';
       config.Elements.whatsappWidget.style.bottom = '148px';
-
-      enableWidget.style.display = 'block';
-      enableWidget.style.top = '-145px';
-      enableWidget.style.left = '-3px !important';
-      enableWidgetIcon.style.height = '50px';
-      enableWidgetIcon.style.width = '50px';
     } else if (window.innerWidth >= 768) {
       config.Elements.whatsappWidget.style.display = 'block';
       config.Elements.whatsappWidget.style.bottom = '140px';
-
-      enableWidget.style.display = 'block';
-      enableWidget.style.top = '-135px';
-      enableWidget.style.left = '-3px !important';
-      enableWidgetIcon.style.height = '50px';
-      enableWidgetIcon.style.width = '50px';
     }
   }
 
@@ -64,23 +44,6 @@ window.onload = function () {
     utils.switchAssetPriceCurrency(false);
     utils.switchSearchPriceCurrencyHtmlOnLoad(config.Elements.priceInput, false);
   }
-
-  // // If Language isn't set or language is Hebrew
-  // if (!JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)) || JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)) === config.DEFAULT_LANGUAGE) {
-  //   // Set default language
-  //   if (!JSON.parse(localStorage.getItem(config.LANGUAGE_KEY))) {
-  //     localStorage.setItem(config.LANGUAGE_KEY, JSON.stringify(config.DEFAULT_LANGUAGE));
-  //   }
-  //   if (config.Elements.langDdBtn) utils.switchLanguageIconsSrc(JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)));
-  // }
-  // // If language is English
-  // else if (JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)) === config.EN_LANGUAGE) {
-  //   utils.switchLanguageIconsSrc(JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)));
-  // }
-  // // If language is Russian
-  // else if (JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)) === config.RU_LANGUAGE) {
-  //   utils.switchLanguageIconsSrc(JSON.parse(localStorage.getItem(config.LANGUAGE_KEY)));
-  // }
 
   //  Header dropdown menu click (project catalog)
   let projectsDdSubmenu = document.querySelectorAll('.projects-dropdown .dropdown-toggle');
@@ -170,11 +133,6 @@ window.onload = function () {
   function highlightNavLinks(type = 'navbar') {
     const links = config.Elements.activeNavLinks;
     const href = getCurrentPath();
-
-    // Reset all
-    // ['assetCatalogDdBtn', 'projectsDdBtn', 'commercialDdBtn'].forEach((btn) => {
-    //   config.Elements[btn].classList.remove('active-link', 'offcanvas-active-link');
-    // });
 
     if (!href) setActiveLinkClass(config.Elements.homePageLink, type);
     if (href === 'blog' || href === '/blog') setActiveLinkClass(config.Elements.blogLink, type);
@@ -700,17 +658,6 @@ if (config.Elements.contactUsExpandBtn)
     });
   });
 
-// Webinar
-// if (config.Elements.webinarForm)
-//   config.Elements.webinarForm.addEventListener('submit', function (e) {
-//     e.preventDefault();
-//     const userName = config.Elements.webinarFormInputName.value;
-//     const userPhone = config.Elements.webinarFormInputPhone.value;
-//     const userEmail = config.Elements.webinarFormInputEmail.value;
-//     const userIsSubscribed = config.Elements.webinarFormCheck.checked;
-//     webinarRegistration(userName, userPhone, userEmail, userIsSubscribed);
-//   });
-
 // ***** Animations *****
 
 // Contact Us fixed animation
@@ -728,108 +675,13 @@ if (config.Elements.contactUsExpandBtnContainer)
 // Counter Animations
 const PROJECT_COUNTERS = {
   azimuth: [
-    { element: config.Elements.azimuthProjectBuildingsNumber, value: 12, suffix: '' },
-    { element: config.Elements.azimuthProjectCommercialNumber, value: 6, suffix: '' },
-    { element: config.Elements.azimuthProjectFloorsNumber, value: 10, suffix: '' },
-    { element: config.Elements.azimuthProjectApartmentsNumber, value: 2000, suffix: '' },
-    { element: config.Elements.azimuthProjectParkingSpotsNumber, value: 144, suffix: '' },
-    { element: config.Elements.azimuthProjectAreaNumber, value: 68000, suffix: 'area' },
+    { element: config.Elements.projectBuildingsNumber, value: 12, suffix: '' },
+    { element: config.Elements.projectCommercialNumber, value: 6, suffix: '' },
+    { element: config.Elements.projectFloorsNumber, value: 10, suffix: '' },
+    { element: config.Elements.projectApartmentsNumber, value: 2000, suffix: '' },
+    { element: config.Elements.projectParkingSpotsNumber, value: 144, suffix: '' },
+    { element: config.Elements.projectAreaNumber, value: 68000, suffix: 'area' },
   ],
-  fortNoksSuites: [
-    { element: config.Elements.fortNoksSuitesProjectBuildingsNumber, value: 2, suffix: '' },
-    { element: config.Elements.fortNoksSuitesProjectFloorsNumber, value: 5, suffix: '' },
-    { element: config.Elements.fortNoksSuitesProjectApartmentsNumber, value: 54, suffix: '' },
-    { element: config.Elements.fortNoksSuitesProjectParkingSpotsNumber, value: 10, suffix: '' },
-  ],
-  greenFortSuites: [
-    { element: config.Elements.greenFortSuitesProjectBuildingsNumber, value: 7, suffix: '' },
-    { element: config.Elements.greenFortSuitesProjectFloorsNumber, value: 6, suffix: '' },
-    { element: config.Elements.greenFortSuitesProjectApartmentsNumber, value: 47, suffix: '' },
-    { element: config.Elements.greenFortSuitesProjectParkingSpotsNumber, value: 14, suffix: '' },
-  ],
-  premierFortBeach: [
-    { element: config.Elements.premierFortBeachProjectBuildingsNumber, value: 6, suffix: '' },
-    { element: config.Elements.premierFortBeachProjectFloorsNumber, value: 6, suffix: '' },
-    { element: config.Elements.premierFortBeachProjectApartmentsNumber, value: 282, suffix: '' },
-  ],
-  prestigeFortBeach: [
-    { element: config.Elements.prestigeFortBeachProjectBuildingsNumber, value: 3, suffix: '' },
-    { element: config.Elements.prestigeFortBeachProjectFloorsNumber, value: 5, suffix: '' },
-    { element: config.Elements.prestigeFortBeachProjectApartmentsNumber, value: 13, suffix: '' },
-  ],
-  nessebarFortResidence: [
-    { element: config.Elements.nessebarFortResidenceProjectBuildingsNumber, value: 1, suffix: '' },
-    { element: config.Elements.nessebarFortResidenceProjectFloorsNumber, value: 4, suffix: '' },
-    { element: config.Elements.nessebarFortResidenceProjectApartmentsNumber, value: 84, suffix: '' },
-  ],
-  enkibuildLighthouse: [
-    { element: config.Elements.enkibuildLighthouseProjectBuildingsNumber, value: 1, suffix: '' },
-    { element: config.Elements.enkibuildLighthouseProjectFloorsNumber, value: 3, suffix: '' },
-    { element: config.Elements.enkibuildLighthouseProjectApartmentsNumber, value: 6, suffix: '' },
-  ],
-  sinemoretsVillas: [
-    { element: config.Elements.sinemoretsVillasProjectBuildingsNumber, value: 10, suffix: '' },
-    { element: config.Elements.sinemoretsVillasProjectFloorsNumber, value: 2, suffix: '' },
-  ],
-  // aa2: [
-  //   { element: config.Elements.aa2ProjectApartmentsNumber, value: 159, suffix: '' },
-  //   { element: config.Elements.aa2ProjectParkingSpotsNumber, value: 174, suffix: '' },
-  // ],
-  // aa3: [
-  //   { element: config.Elements.aa3ProjectBuildingsNumber, value: 3, suffix: '' },
-  //   { element: config.Elements.aa3ProjectFloorsNumber, value: 9, suffix: '' },
-  //   { element: config.Elements.aa3ProjectApartmentsNumber, value: 210, suffix: '' },
-  //   { element: config.Elements.aa3ProjectParkingSpotsNumber, value: 250, suffix: '' },
-  // ],
-  // ae: [
-  //   { element: config.Elements.aeProjectBuildingsNumber, value: 6, suffix: '' },
-  //   { element: config.Elements.aeProjectFloorsNumber, value: 9, suffix: '' },
-  //   { element: config.Elements.aeProjectApartmentsNumber, value: 292, suffix: '' },
-  //   { element: config.Elements.aeProjectParkingSpotsNumber, value: 320, suffix: '' },
-  //   { element: config.Elements.aeProjectAreaNumber, value: 27955, suffix: 'area' },
-  //   { element: config.Elements.aeProjectGreenAreaNumber, value: 5200, suffix: 'area' },
-  // ],
-  // ab: [
-  //   { element: config.Elements.abProjectBuildingsNumber, value: 2, suffix: '' },
-  //   { element: config.Elements.abProjectFloorsNumber, value: 8, suffix: '' },
-  //   { element: config.Elements.abProjectApartmentsNumber, value: 93, suffix: '' },
-  //   { element: config.Elements.abProjectParkingSpotsNumber, value: 106, suffix: '' },
-  //   { element: config.Elements.abProjectAreaNumber, value: 9634, suffix: 'area' },
-  // ],
-  // ab2: [
-  //   { element: config.Elements.ab2ProjectBuildingsNumber, value: 2, suffix: '' },
-  //   { element: config.Elements.ab2ProjectApartmentsNumber, value: 225, suffix: '' },
-  //   { element: config.Elements.ab2ProjectParkingSpotsNumber, value: 243, suffix: '' },
-  //   { element: config.Elements.ab2ProjectAreaNumber, value: 7000, suffix: 'area' },
-  // ],
-  // villaMargarita: [
-  //   { element: config.Elements.villaMargaritaProjectBuildingsNumber, value: 1, suffix: '' },
-  //   { element: config.Elements.villaMargaritaProjectFloorsNumber, value: 4, suffix: '' },
-  //   { element: config.Elements.villaMargaritaProjectApartmentsNumber, value: 72, suffix: '' },
-  // ],
-  // melliaFlorance: [
-  //   { element: config.Elements.melliaFloranceProjectBuildingsNumber, value: 1, suffix: '' },
-  //   { element: config.Elements.melliaFloranceProjectFloorsNumber, value: 5, suffix: '' },
-  //   { element: config.Elements.melliaFloranceProjectApartmentsNumber, value: 29, suffix: '' },
-  // ],
-  // mountainResidence: [
-  //   { element: config.Elements.mountainResidenceProjectBuildingsNumber, value: 1, suffix: '' },
-  //   { element: config.Elements.mountainResidenceProjectFloorsNumber, value: 6, suffix: '' },
-  //   { element: config.Elements.mountainResidenceProjectApartmentsNumber, value: 133, suffix: '' },
-  //   { element: config.Elements.mountainResidenceProjectParkingSpotsNumber, value: 129, suffix: '' },
-  // ],
-  // mountainView: [
-  //   { element: config.Elements.mountainViewProjectBuildingsNumber, value: 1, suffix: '' },
-  //   { element: config.Elements.mountainViewProjectFloorsNumber, value: 4, suffix: '' },
-  //   { element: config.Elements.mountainViewProjectApartmentsNumber, value: 67, suffix: '' },
-  //   { element: config.Elements.mountainViewProjectParkingSpotsNumber, value: 68, suffix: '' },
-  // ],
-  // mountainBoutique: [
-  //   { element: config.Elements.mountainBoutiqueProjectBuildingsNumber, value: 1, suffix: '' },
-  //   { element: config.Elements.mountainBoutiqueProjectFloorsNumber, value: 6, suffix: '' },
-  //   { element: config.Elements.mountainBoutiqueProjectApartmentsNumber, value: 46, suffix: '' },
-  //   { element: config.Elements.mountainBoutiqueProjectParkingSpotsNumber, value: 51, suffix: '' },
-  // ],
 };
 
 const getAreaSuffix = () => {

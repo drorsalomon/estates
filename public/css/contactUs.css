@@ -114,6 +114,10 @@
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
 }
 
+.webinar-form-check-top-label {
+  color: #ffffff;
+}
+
 .ru-contact-us-button {
   width: 11rem !important;
   height: 4rem !important;

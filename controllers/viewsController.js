@@ -66,11 +66,11 @@ exports.getContactUsConfirm = (req, res) => {
     title: 'אישור שליחת פרטים ליצירת קשר',
   });
 };
-// exports.getPricing = (req, res) => {
-//   res.status(200).render(`${res.locals.lang}/pricing`, {
-//     title: 'מחירון חבילות ליווי',
-//   });
-// };
+exports.getPricing = (req, res) => {
+  res.status(200).render(`${res.locals.lang}/pricing`, {
+    title: 'מחירון חבילות ליווי',
+  });
+};
 exports.getPrivacy = (req, res) => {
   res.status(200).render(`${res.locals.lang}/privacy`, {
     title: 'תנאי פרטיות',
@@ -91,15 +91,3 @@ exports.getSiteMap = (req, res) => {
     title: 'מפת האתר',
   });
 };
-
-// exports.getWebinar = catchAsync(async (req, res) => {
-//   res.status(200).render(`${res.locals.lang}/webinar`, {
-//     title: 'וובינר השקעות נדל"ן בבולגריה',
-//   });
-// });
-
-// exports.getWebinarArchive = catchAsync(async (req, res) => {
-//   res.status(200).render(`${res.locals.lang}/webinarArchive`, {
-//     title: 'ארכיון וובינר השקעות נדל"ן בבולגריה',
-//   });
-// });

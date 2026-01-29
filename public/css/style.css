@@ -188,6 +188,10 @@ nav,
   height: 4.5rem;
 }
 
+.mobile-navbar-logo {
+  height: 1.7rem;
+}
+
 .navbar-brand:hover,
 .navbar-logo:hover {
   -webkit-filter: brightness(100%) !important;
@@ -278,7 +282,7 @@ footer {
 }
 
 .footer-logo-img {
-  height: 8rem;
+  height: 6rem;
 }
 
 .footer-row {
@@ -767,7 +771,7 @@ a:hover {
 
 .no-search-results-found-img {
   height: 10rem;
-  width: 15rem !important;
+  width: 30rem !important;
   margin-bottom: 5rem;
 }
 
@@ -1089,87 +1093,10 @@ a:hover {
   margin-bottom: 5rem !important;
 }
 
-.project-main-image-col.project-main-image-col-atlas-azimuth {
+.project-main-image-col.project-main-image-col-prestige-estates {
   position: relative;
   padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631412992-azimuth-project-10.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-fort-noks-premier-suites {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/fort-noks-premier-suits/fort-noks-premier-suits1744278279030-fort-noks-premier-suits-3.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-green-fort-suites {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/green-fort-suites/1744367105494-green-fort-suites-6.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-premier-fort-beach {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313268-premier-fort-beach-47.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-prestige-fort-beach {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745788-prestige-fort-beach-3.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-nessebar-fort-residence {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596814-nessebar-fort-residence-2.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-lighthouse-premium-apartments {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894774-enkibuild-lighthouse-1.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 60rem;
-  width: 100%;
-}
-.project-main-image-col.project-main-image-col-sinemorets-villas {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868381-sinemorets-villas-1.webp");
+  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0.6), rgba(37, 48, 70, 0.6)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288423-prestige-estates-1.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1178,84 +1105,7 @@ a:hover {
   width: 100%;
 }
 
-.project-main-image-headline.project-main-image-headline-atlas-azimuth {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-fort-noks-premier-suites {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-green-fort-suites {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-premier-fort-beach {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-prestige-fort-beach {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-nessebar-fort-residence {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-lighthouse-premium-apartments {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 4.2rem;
-}
-.project-main-image-headline.project-main-image-headline-sinemorets-villas {
+.project-main-image-headline.project-main-image-headline-prestige-estates {
   position: absolute;
   top: 50%;
   left: 40%;
@@ -1350,70 +1200,15 @@ a:hover {
   margin-bottom: 4rem;
 }
 
-.project-mid-image-container.project-mid-image-container-atlas-azimuth {
+.project-mid-image-container.project-mid-image-container-prestige-estates {
   position: relative;
   padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp");
+  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 50rem;
-  width: 100%;
-}
-.project-mid-image-container.project-mid-image-container-premier-fort-beach {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 25rem;
   height: 30rem;
-  width: 100%;
-}
-.project-mid-image-container.project-mid-image-container-prestige-fort-beach {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 20rem;
-  width: 100%;
-}
-.project-mid-image-container.project-mid-image-container-nessebar-fort-residence {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596962-nessebar-fort-residence-30.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 20rem;
-  width: 100%;
-}
-.project-mid-image-container.project-mid-image-container-lighthouse-premium-apartments {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 15rem;
-  width: 100%;
-}
-.project-mid-image-container.project-mid-image-container-sinemorets-villas {
-  position: relative;
-  padding: 0 !important;
-  background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 15rem;
   width: 100%;
 }
 
@@ -1984,6 +1779,10 @@ a:hover {
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
 }
 
+.webinar-form-check-top-label {
+  color: #ffffff;
+}
+
 .ru-contact-us-button {
   width: 11rem !important;
   height: 4rem !important;
@@ -2223,190 +2022,6 @@ a:hover {
 
 .siteMap-links:hover {
   color: #2078a9;
-}
-
-.webinar-main-container {
-  position: relative;
-  text-align: center;
-  padding: 0 !important;
-}
-
-.webinar-headline-img {
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: 67rem;
-  width: 100%;
-  -webkit-filter: brightness(40%);
-  filter: brightness(40%);
-}
-
-.webinar-headline {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.webinar-headline-text-top,
-.webinar-headline-text-bottom {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  color: #fce38a;
-}
-
-.webinar-headline-text-top {
-  top: 28%;
-}
-
-.webinar-headline-text-bottom {
-  top: 32%;
-}
-
-.webinar-contact-us-headline {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
-
-.webinar-contact-us-top-container {
-  position: absolute;
-  top: 69%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.webinar-form-check-top-label {
-  font-size: 1.2rem;
-  color: #ffffff;
-}
-
-.webinar-contact-us-text {
-  font-size: 2rem;
-  color: #ffffff;
-}
-
-.webinar-contact-us-asterisk-icon {
-  height: 2rem;
-}
-
-.webinar-contact-us-icon {
-  height: 3.5rem;
-}
-
-.webinar-main-text-container {
-  margin: 4rem 0;
-}
-
-.webinar-main-text {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #324762;
-  margin-bottom: 1rem;
-}
-
-.webinar-star-symbol {
-  color: #2078a9;
-}
-
-.webinar-who-container {
-  background-color: #f7f7f7;
-  padding: 3rem 0;
-}
-
-.webinar-subjects-container {
-  background-color: #f7f7f7;
-  margin-top: 3rem;
-  padding: 2rem 0 4rem 0;
-}
-
-.webinar-who-headline,
-.webinar-subjects-headline,
-.webinar-moderators-headline {
-  font-size: 2.4rem;
-  font-weight: 600;
-  color: #324762;
-  margin-bottom: 0.5rem;
-}
-
-.webinar-divider {
-  height: 0.5rem;
-  background-color: #2078a9;
-  margin-bottom: 4rem;
-  text-align: center;
-}
-
-.webinar-subjects-icon-container,
-.webinar-moderators-image-container {
-  border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 0;
-  z-index: 101;
-  margin: 0 auto;
-  margin-bottom: 0.7rem;
-}
-
-.webinar-subjects-icon-container {
-  background-color: #fce38a;
-}
-
-.webinar-moderators-image-container {
-  background-color: #2078a9;
-}
-
-.webinar-subjects-icon {
-  height: 5rem;
-}
-
-.webinar-subjects-icon-text,
-.webinar-moderators-image-name {
-  font-weight: 600;
-  margin-bottom: 2rem;
-  color: #324762;
-}
-
-.webinar-moderators-container {
-  padding: 3rem 0;
-}
-
-.webinar-moderators-image {
-  height: 7.5rem;
-  border-radius: 50%;
-}
-
-.webinar-moderators-image-name {
-  margin-bottom: 1rem;
-}
-
-.webinar-moderators-image-text {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: #324762;
-}
-
-.webinar-contact-us-container {
-  background-color: #324762;
-  padding-top: 3rem;
 }
 
 .webinar-archive-headline-row {
@@ -3680,6 +3295,121 @@ input[type=text]::placeholder {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232078a9' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+.mainpage-pricing-container {
+  background-color: #f7f7f7;
+}
+
+.mainpage-pricing-headline-row {
+  padding-top: 5rem;
+}
+
+.pricing-tag {
+  color: #2078a9;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.mainpage-pricing-headline {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #324762;
+  margin-bottom: 5rem;
+}
+
+.pricing-cards-row {
+  margin: 0 2rem 5rem 2rem !important;
+}
+
+.pricing-card-basic,
+.pricing-card-plus,
+.pricing-card-premium {
+  border-radius: 3rem !important;
+  margin-bottom: 5rem;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card-basic {
+  border: 2px solid #8e8e8e !important;
+}
+
+.pricing-card-plus {
+  border: 2px solid #324762 !important;
+}
+
+.pricing-card-premium {
+  border: 2px solid #2078a9 !important;
+  overflow: hidden;
+}
+
+.pricing-premium-col {
+  position: relative;
+}
+
+.pricing-premium-badge {
+  font-size: 1.2rem !important;
+  color: #ffffff;
+  background-color: #2078a9;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13rem;
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  margin: 6rem 0 0 -3rem;
+}
+
+.en-pricing-premium-badge {
+  font-size: 1.2rem !important;
+  color: #ffffff;
+  background-color: #2078a9;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 13rem;
+  -webkit-transform-origin: top right;
+  -ms-transform-origin: top right;
+  transform-origin: top right;
+  margin: 6rem -3rem 0 0;
+}
+
+.pricing-card-main-title,
+.pricing-card-tertiary-title {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #324762 !important;
+}
+
+.pricing-card-secondary-title {
+  font-size: 1.6rem;
+  color: #5c5e64 !important;
+}
+
+.pricing-card-text {
+  font-size: 1rem;
+  color: #5c5e64 !important;
+}
+
+.pricing-card-icon {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.en-pricing-card-icon {
+  margin-right: 0.6rem;
+}
+
+.en-mainpage-pricing-btn-container {
+  margin-bottom: 5rem;
+}
+
 .mainpage-blog-container {
   margin-top: 5rem;
 }
@@ -3793,7 +3523,7 @@ input[type=text]::placeholder {
 }
 
 .contact-us-fixed-logo {
-  height: 6rem;
+  height: 3rem;
 }
 
 .contact-us-input-fixed-col {

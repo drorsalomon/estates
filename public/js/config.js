@@ -155,104 +155,19 @@ export const Elements = {
   contactUsEmailInvalid: document.querySelector('.contact-us-email-invalid '),
   // Sitemap
   sitemapProjectLink: document.querySelectorAll('.siteMap-project-link'),
-  // Webinar
-  webinarForm: document.querySelector('.webinar-form'),
-  webinarFormInputName: document.querySelector('.webinar-input-name'),
-  webinarFormInputPhone: document.querySelector('.webinar-input-phone'),
-  webinarFormInputEmail: document.querySelector('.webinar-input-email'),
-  webinarFormCheck: document.querySelector('.webinar-form-check'),
-  webinarFormBtn: document.querySelector('.landing-webinar-button'),
   // ***** PROJECTS *****
   projectAssetsContainer: document.querySelector('.project-assets-container'),
-  // Atlas Azimuth
-  azimuthProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-atlas-azimuth'),
-  azimuthProjectCommercialNumber: document.querySelector('.project-numbers-commercial-number-atlas-azimuth'),
-  azimuthProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-atlas-azimuth'),
-  azimuthProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-atlas-azimuth'),
-  azimuthProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-atlas-azimuth'),
-  azimuthProjectAreaNumber: document.querySelector('.project-numbers-area-number-atlas-azimuth'),
-  // Fort Noks Suites
-  fortNoksSuitesProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-fort-noks-premier-suites'),
-  fortNoksSuitesProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-fort-noks-premier-suites'),
-  fortNoksSuitesProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-fort-noks-premier-suites'),
-  fortNoksSuitesProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-fort-noks-premier-suites'),
-  // Green Fort Suites
-  greenFortSuitesProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-green-fort-suites'),
-  greenFortSuitesProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-green-fort-suites'),
-  greenFortSuitesProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-green-fort-suites'),
-  greenFortSuitesProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-green-fort-suites'),
-  // Premier Fort Beach
-  premierFortBeachProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-premier-fort-beach'),
-  premierFortBeachProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-premier-fort-beach'),
-  premierFortBeachProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-premier-fort-beach'),
-  // Prestige Fort Beach
-  prestigeFortBeachProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-prestige-fort-beach'),
-  prestigeFortBeachProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-prestige-fort-beach'),
-  prestigeFortBeachProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-prestige-fort-beach'),
-  // Nessebar Fort Residence
-  nessebarFortResidenceProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-nessebar-fort-residence'),
-  nessebarFortResidenceProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-nessebar-fort-residence'),
-  nessebarFortResidenceProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-nessebar-fort-residence'),
-  // Enkibuild Lighthouse
-  enkibuildLighthouseProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-lighthouse-premium-apartments'),
-  enkibuildLighthouseProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-lighthouse-premium-apartments'),
-  enkibuildLighthouseProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-lighthouse-premium-apartments'),
-  // Sinemorets Villas
-  sinemoretsVillasProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-sinemorets-villas'),
-  sinemoretsVillasProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-sinemorets-villas'),
-  // Atlantis Aria 2
-  // aa2ProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-atlantis-aria-2'),
-  // aa2ProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-atlantis-aria-2'),
-  // Atlantis Aria 3
-  // aa3ProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-atlantis-aria-3'),
-  // aa3ProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-atlantis-aria-3'),
-  // aa3ProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-atlantis-aria-3'),
-  // aa3ProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-atlantis-aria-3'),
-  // Atlantis Euphoria
-  // aeProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-atlantis-euphoria'),
-  // aeProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-atlantis-euphoria'),
-  // aeProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-atlantis-euphoria'),
-  // aeProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-atlantis-euphoria'),
-  // aeProjectAreaNumber: document.querySelector('.project-numbers-area-number-atlantis-euphoria'),
-  // aeProjectGreenAreaNumber: document.querySelector('.project-numbers-green-area-number-atlantis-euphoria'),
-  // Atlantis Barcode
-  // abProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-atlantis-barcode'),
-  // abProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-atlantis-barcode'),
-  // abProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-atlantis-barcode'),
-  // abProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-atlantis-barcode'),
-  // abProjectAreaNumber: document.querySelector('.project-numbers-area-number-atlantis-barcode'),
-  // Atlantis Barcode 2
-  // ab2ProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-atlantis-barcode-2'),
-  // ab2ProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-atlantis-barcode-2'),
-  // ab2ProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-atlantis-barcode-2'),
-  // ab2ProjectAreaNumber: document.querySelector('.project-numbers-area-number-atlantis-barcode-2'),
-  // Villa Margarita
-  // villaMargaritaProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-villa-margarita'),
-  // villaMargaritaProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-villa-margarita'),
-  // villaMargaritaProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-villa-margarita'),
-  // Mellia Florance
-  // melliaFloranceProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-mellia-florance'),
-  // melliaFloranceProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-mellia-florance'),
-  // melliaFloranceProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-mellia-florance'),
-  // Mountain View Residence
-  // mountainResidenceProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-mountain-residence'),
-  // mountainResidenceProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-mountain-residence'),
-  // mountainResidenceProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-mountain-residence'),
-  // mountainResidenceProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-mountain-residence'),
-  // Vitosah Mountain View
-  // mountainViewProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-mountain-view'),
-  // mountainViewProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-mountain-view'),
-  // mountainViewProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-mountain-view'),
-  // mountainViewProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-mountain-view'),
-  // Vitosah Mountain Boutique
-  // mountainBoutiqueProjectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-mountain-boutique'),
-  // mountainBoutiqueProjectFloorsNumber: document.querySelector('.project-numbers-floors-number-mountain-boutique'),
-  // mountainBoutiqueProjectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-mountain-boutique'),
-  // mountainBoutiqueProjectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-mountain-boutique'),
+  // Pseudo Project
+  projectBuildingsNumber: document.querySelector('.project-numbers-buildings-number-prestige-estates'),
+  projectCommercialNumber: document.querySelector('.project-numbers-commercial-number-prestige-estates'),
+  projectFloorsNumber: document.querySelector('.project-numbers-floors-number-prestige-estates'),
+  projectApartmentsNumber: document.querySelector('.project-numbers-apartments-number-prestige-estates'),
+  projectParkingSpotsNumber: document.querySelector('.project-numbers-parking-spots-number-prestige-estates'),
+  projectAreaNumber: document.querySelector('.project-numbers-area-number-prestige-estates'),
 };
 
 export const baseDevUrl = 'http://127.0.0.1:8000/';
-export const baseProdUrl = 'https://www.dirabulgarit.co.il/';
+export const baseProdUrl = 'https://estates-9vz9.onrender.com';
 
 export const euroIconSrc = '/img/icons/euro.svg';
 export const mobileEuroIconSrc = '/img/icons/euro-white.svg';

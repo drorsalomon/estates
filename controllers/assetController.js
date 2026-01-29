@@ -17,63 +17,58 @@ dotenv.config({ path: './config.env' });
 let assetsArray = [];
 
 exports.getSearchResults = catchAsync(async (req, res, next) => {
-  try {
-    mongooseQuery = {
-      ...Utils.buildMongooseQuery(req.body.filter),
-      origin: { $in: ['vita', 'Bulgarian Resales'] },
-    };
-    let sortOptions;
-    if (req.params.sort === 'price') {
-      sortOptions = { price: parseInt(req.params.type) === 1 ? 1 : -1 };
-    } else {
-      sortOptions = { date: parseInt(req.params.type) === 1 ? 1 : -1 };
-    }
-    const totalAssetsArray = res.locals.lang === 'he' ? await Asset.find(mongooseQuery) : await enAsset.find(mongooseQuery);
-    const totalAssets = totalAssetsArray.length;
-
-    let assets;
-
-    if (res.locals.lang === 'he') {
-      assets = await Asset.find(mongooseQuery)
-        .sort(sortOptions)
-        .skip((req.params.pageNumber - 1) * req.params.resPerPage)
-        .limit(parseInt(req.params.resPerPage));
-    } else if (res.locals.lang === 'en') {
-      assets = await enAsset
-        .find(mongooseQuery)
-        .sort(sortOptions)
-        .skip((req.params.pageNumber - 1) * req.params.resPerPage)
-        .limit(parseInt(req.params.resPerPage));
-    } else if (res.locals.lang === 'ru') {
-      assets = await ruAsset
-        .find(mongooseQuery)
-        .sort(sortOptions)
-        .skip((req.params.pageNumber - 1) * req.params.resPerPage)
-        .limit(parseInt(req.params.resPerPage));
-    } else {
-      // Fallback in case the language is not recognized
-      assets = [];
-    }
-
-    assetsArray = assets;
-
-    // Get total number of pages for pagination
-    const totalPages = Utils.populatePagesArray(totalAssetsArray, req.params.resPerPage);
-
-    if (!assets) return next(new AppError('Could not find the requested assets!', 404));
-    res.status(200).json({
-      status: 'success',
-      data: {
-        totalAssets,
-        totalPages,
-        pageNumber: req.params.pageNumber,
-      },
-    });
-  } catch (error) {
-    // Handle errors
-    console.log(error);
-    //res.status(500).send('Internal Server Error');
-  }
+  // try {
+  //   mongooseQuery = {
+  //     ...Utils.buildMongooseQuery(req.body.filter),
+  //     origin: { $in: ['vita', 'Bulgarian Resales'] },
+  //   };
+  //   let sortOptions;
+  //   if (req.params.sort === 'price') {
+  //     sortOptions = { price: parseInt(req.params.type) === 1 ? 1 : -1 };
+  //   } else {
+  //     sortOptions = { date: parseInt(req.params.type) === 1 ? 1 : -1 };
+  //   }
+  //   const totalAssetsArray = res.locals.lang === 'he' ? await Asset.find(mongooseQuery) : await enAsset.find(mongooseQuery);
+  //   const totalAssets = totalAssetsArray.length;
+  //   let assets;
+  //   if (res.locals.lang === 'he') {
+  //     assets = await Asset.find(mongooseQuery)
+  //       .sort(sortOptions)
+  //       .skip((req.params.pageNumber - 1) * req.params.resPerPage)
+  //       .limit(parseInt(req.params.resPerPage));
+  //   } else if (res.locals.lang === 'en') {
+  //     assets = await enAsset
+  //       .find(mongooseQuery)
+  //       .sort(sortOptions)
+  //       .skip((req.params.pageNumber - 1) * req.params.resPerPage)
+  //       .limit(parseInt(req.params.resPerPage));
+  //   } else if (res.locals.lang === 'ru') {
+  //     assets = await ruAsset
+  //       .find(mongooseQuery)
+  //       .sort(sortOptions)
+  //       .skip((req.params.pageNumber - 1) * req.params.resPerPage)
+  //       .limit(parseInt(req.params.resPerPage));
+  //   } else {
+  //     // Fallback in case the language is not recognized
+  //     assets = [];
+  //   }
+  //   assetsArray = assets;
+  //   // Get total number of pages for pagination
+  //   const totalPages = Utils.populatePagesArray(totalAssetsArray, req.params.resPerPage);
+  //   if (!assets) return next(new AppError('Could not find the requested assets!', 404));
+  //   res.status(200).json({
+  //     status: 'success',
+  //     data: {
+  //       totalAssets,
+  //       totalPages,
+  //       pageNumber: req.params.pageNumber,
+  //     },
+  //   });
+  // } catch (error) {
+  //   // Handle errors
+  //   console.log(error);
+  //   //res.status(500).send('Internal Server Error');
+  // }
 });
 
 exports.renderSearchResults = catchAsync(async (req, res, next) => {
@@ -92,9 +87,6 @@ exports.renderSearchResults = catchAsync(async (req, res, next) => {
 });
 
 exports.getAsset = catchAsync(async (req, res, next) => {
-  //  const asset = res.locals.lang === 'he' ? await Asset.findOne({ slug: req.params.slug }) : await enAsset.findOne({ slug: req.params.slug });
-  // if (!asset) return next(new AppError('Could not find the requested asset!', 404));
-
   let asset;
 
   if (res.locals.lang === 'he') {
@@ -108,12 +100,7 @@ exports.getAsset = catchAsync(async (req, res, next) => {
   if (!asset) return next(new AppError('Could not find the requested asset!', 404));
 
   let sortOptions = { project: 1, price: 1 };
-  const priceRange = { $gte: asset.price - 40000, $lte: asset.price + 40000 };
-  const filterCriteria = { price: priceRange, city: asset.city, sold: false, _id: { $ne: asset._id } };
-
-  // const relatedAssets =
-  //   res.locals.lang === 'he' ? await Asset.find(filterCriteria).sort(sortOptions).limit(12) : await enAsset.find(filterCriteria).sort(sortOptions).limit(12);
-  // if (!relatedAssets) return next(new AppError('Could not find the requested hot assets!', 404));
+  const filterCriteria = { project: asset.project };
 
   let relatedAssets;
 
@@ -124,7 +111,7 @@ exports.getAsset = catchAsync(async (req, res, next) => {
   } else if (res.locals.lang === 'ru') {
     relatedAssets = await ruAsset.find(filterCriteria).sort(sortOptions).limit(12);
   }
-
+  console.log(asset.price);
   if (!relatedAssets) return next(new AppError('Could not find the requested hot assets!', 404));
 
   res.status(200).render(`${res.locals.lang}/asset`, {

@@ -126,13 +126,6 @@
     display: inline;
   }
 
-  // ***** Project *****
-  .project-main-image-headline {
-    &.project-main-image-headline-samokov {
-      @include projectHeadline(40%);
-    }
-  }
-
   // Webinar
   .webinar-headline-img {
     height: 70rem;
@@ -209,7 +202,7 @@
   }
 
   .navbar-logo {
-    height: 6rem;
+    height: 3rem;
   }
 
   // ***** Hero *****
@@ -457,92 +450,10 @@
 
   // ***** Project *****
   .project-main-image-headline {
-    &.project-main-image-headline-atlas-azimuth {
-      @include projectHeadline(32%);
+    &.project-main-image-headline-prestige-estates {
+      @include projectHeadline(37%);
       font-size: $h1;
     }
-    &.project-main-image-headline-fort-noks-premier-suites {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    &.project-main-image-headline-green-fort-suites {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    &.project-main-image-headline-premier-fort-beach {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    &.project-main-image-headline-prestige-fort-beach {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    &.project-main-image-headline-nessebar-fort-residence {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    &.project-main-image-headline-lighthouse-premium-apartments {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    &.project-main-image-headline-sinemorets-villas {
-      @include projectHeadline(36%);
-      font-size: $h1;
-    }
-    // &.project-main-image-headline-atlantis-aria-3 {
-    //   @include projectHeadline(35%);
-    //   font-size: $h1;
-    // }
-
-    // &.project-main-image-headline-atlantis-euphoria {
-    //   @include projectHeadline(38%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-atlantis-barcode {
-    //   @include projectHeadline(38%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-atlantis-barcode-2 {
-    //   @include projectHeadline(38%);
-    //   font-size: $h1;
-    // }
-
-    // &.project-main-image-headline-villa-margarita {
-    //   @include projectHeadline(32%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-mellia-florance {
-    //   @include projectHeadline(32%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-mountain-residence {
-    //   @include projectHeadline(36%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-mountain-view {
-    //   @include projectHeadline(36%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-mountain-boutique {
-    //   @include projectHeadline(36%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-camelot {
-    //   @include projectHeadline(38%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-sofia-b5 {
-    //   @include projectHeadline(37%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-samokov {
-    //   @include projectHeadline(37%);
-    //   font-size: $h1;
-    // }
-    // &.project-main-image-headline-pomorie {
-    //   @include projectHeadline(37%);
-    //   font-size: $h1;
-    // }
   }
 
   .project-gallery-image {
@@ -559,91 +470,53 @@
     height: 40rem;
     width: 30rem;
   }
+}
 
-  .project-mid-image-container {
-    &.project-mid-image-container-lighthouse-premium-apartments {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp',
-        100% 35rem,
-        30rem
-      );
-    }
-    &.project-mid-image-container-sinemorets-villas {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp',
-        100% 35rem,
-        30rem
-      );
-    }
-    //   &.project-mid-image-container-atlantis-aria-2 {
-    //     @include projectMiddleImage(
-    //       'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716717336291-a3_94k-scaled.jpg',
-    //       100% 90rem,
-    //       60rem
-    //     );
-    //   }
-    //   &.project-mid-image-container-atlantis-aria-3 {
-    //     @include projectMiddleImage(
-    //       'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-3-images/1718892982818-atlantis-aria-3-building.webp',
-    //       contain,
-    //       60rem
-    //     );
-    //   }
-    //   &.project-mid-image-container-atlantis-barcode-2 {
-    //     @include projectMiddleImage(
-    //       'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-2-images/1732263638743-atlantis-barcode-2-project-13.webp',
-    //       100% 40rem,
-    //       60rem
-    //     );
-    //   }
-  }
+.project-installment-scheme-table {
+  width: 95rem !important;
+}
 
-  .project-installment-scheme-table {
-    width: 95rem !important;
-  }
+.project-installment-scheme-table th,
+.project-installment-scheme-table td {
+  font-size: $h6;
+}
 
-  .project-installment-scheme-table th,
-  .project-installment-scheme-table td {
-    font-size: $h6;
-  }
+// ***** Landing Page *****
+.landing-main-image {
+  height: 24.5rem;
+}
 
-  // ***** Landing Page *****
-  .landing-main-image {
-    height: 24.5rem;
-  }
+// Webinar
+.webinar-headline-img {
+  height: 65rem;
+}
 
-  // Webinar
-  .webinar-headline-img {
-    height: 65rem;
-  }
+.webinar-headline-text-top {
+  top: 27%;
+}
 
-  .webinar-headline-text-top {
-    top: 27%;
-  }
+.webinar-headline-text-bottom {
+  top: 32%;
+}
 
-  .webinar-headline-text-bottom {
-    top: 32%;
-  }
+.webinar-contact-us-top-container {
+  top: 69%;
+}
 
-  .webinar-contact-us-top-container {
-    top: 69%;
-  }
+.webinar-input-name,
+.webinar-input-phone,
+.webinar-input-email {
+  width: 37rem !important;
+}
 
-  .webinar-input-name,
-  .webinar-input-phone,
-  .webinar-input-email {
-    width: 37rem !important;
-  }
+.webinar-form-check {
+  margin-left: 1rem;
+}
 
-  .webinar-form-check {
-    margin-left: 1rem;
-  }
-
-  // ***** Alert *****
-  .alert {
-    width: 70%;
-    font-size: $h6;
-  }
+// ***** Alert *****
+.alert {
+  width: 70%;
+  font-size: $h6;
 }
 
 // Medium
@@ -1025,43 +898,19 @@
 
   // ***** Project *****
   .project-main-image-headline {
-    &.project-main-image-headline-atlas-azimuth {
-      @include projectHeadline(25%);
+    &.project-main-image-headline-prestige-estates {
+      @include projectHeadline(28%);
     }
-    &.project-main-image-headline-green-fort-suites {
-      @include projectHeadline(30%);
-    }
-    &.project-main-image-headline-premier-fort-beach {
-      @include projectHeadline(32%);
-    }
-    &.project-main-image-headline-prestige-fort-beach {
-      @include projectHeadline(32%);
-    }
-    &.project-main-image-headline-lighthouse-premium-apartments {
-      @include projectHeadline(35%);
-    }
-    &.project-main-image-headline-sinemorets-villas {
-      @include projectHeadline(29%);
-    }
-    // &.project-main-image-headline-atlantis-aria-3 {
-    //   @include projectHeadline(25%);
-    // }
+  }
 
-    // &.project-main-image-headline-atlantis-euphoria {
-    //   @include projectHeadline(30%);
-    // }
-    // &.project-main-image-headline-atlantis-barcode {
-    //   @include projectHeadline(30%);
-    // }
-    // &.project-main-image-headline-atlantis-barcode-2 {
-    //   @include projectHeadline(30%);
-    // }
-    // &.project-main-image-headline-villa-margarita {
-    //   @include projectHeadline(25%);
-    // }
-    // &.project-main-image-headline-mellia-florance {
-    //   @include projectHeadline(25%);
-    // }
+  .project-mid-image-container {
+    &.project-mid-image-container-prestige-estates {
+      @include projectMiddleImage(
+        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp',
+        100% 50rem,
+        40rem
+      );
+    }
   }
 
   .project-gallery-image {
@@ -1078,165 +927,92 @@
     height: 45rem;
     width: 35rem;
   }
+}
 
-  .project-mid-image-container {
-    &.project-mid-image-container-premier-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg',
-        100% 60rem,
-        35rem
-      );
-    }
-    &.project-mid-image-container-prestige-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp',
-        100% 60rem,
-        35rem
-      );
-    }
-    &.project-mid-image-container-nessebar-fort-residence {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596962-nessebar-fort-residence-30.webp',
-        100% 50rem,
-        35rem
-      );
-    }
-    &.project-mid-image-container-lighthouse-premium-apartments {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp',
-        100% 50rem,
-        35rem
-      );
-    }
-    &.project-mid-image-container-sinemorets-villas {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp',
-        100% 50rem,
-        35rem
-      );
-    }
-    // &.project-mid-image-container-atlantis-aria-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716717336291-a3_94k-scaled.jpg',
-    //     100% 120rem,
-    //     70rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-euphoria {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/euphoria-images/1719320290027-atlantis-euphoria-middle-image.webp',
-    //     contain,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-barcode-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-2-images/1732263638743-atlantis-barcode-2-project-13.webp',
-    //     100% 60rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-residence {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-mountain-view-residence-images/1735210321595-sofia-mountain-view-residence-8.webp',
-    //     100% 40rem,
-    //     40rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-view {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-vitosha-mountain-view-images/1735387898022-vitosha-mountain-view-4.webp',
-    //     100% 50rem,
-    //     50rem
-    //   );
-    // }
-  }
+// ***** Footer *****
+.footer-border {
+  width: 15rem;
+}
 
-  // ***** Footer *****
-  .footer-border {
-    width: 15rem;
-  }
+.footer-social-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
 
-  .footer-social-icon {
-    width: 4.5rem;
-    height: 4.5rem;
-  }
+// ***** Landing Page *****
+.landing-text {
+  font-size: $h6;
+}
 
-  // ***** Landing Page *****
-  .landing-text {
-    font-size: $h6;
-  }
+.landing-main-image {
+  height: 31rem;
+}
 
-  .landing-main-image {
-    height: 31rem;
-  }
+.landing-contact-us-input {
+  width: 35rem !important;
+}
 
-  .landing-contact-us-input {
-    width: 35rem !important;
-  }
+// ***** Webinar *****
+.webinar-headline-img {
+  height: 68rem;
+}
 
-  // ***** Webinar *****
-  .webinar-headline-img {
-    height: 68rem;
-  }
+.webinar-headline {
+  font-size: $h3;
+  width: 55rem;
+  top: 15%;
+}
 
-  .webinar-headline {
-    font-size: $h3;
-    width: 55rem;
-    top: 15%;
-  }
+.webinar-headline-text-top,
+.webinar-headline-text-bottom {
+  font-size: $h4;
+}
 
-  .webinar-headline-text-top,
-  .webinar-headline-text-bottom {
-    font-size: $h4;
-  }
+.webinar-headline-text-top {
+  top: 30%;
+}
 
-  .webinar-headline-text-top {
-    top: 30%;
-  }
+.webinar-headline-text-bottom {
+  top: 35%;
+}
 
-  .webinar-headline-text-bottom {
-    top: 35%;
-  }
+.webinar-contact-us-top-container {
+  top: 71%;
+}
 
-  .webinar-contact-us-top-container {
-    top: 71%;
-  }
+.webinar-contact-us-headline {
+  font-size: $h5;
+}
 
-  .webinar-contact-us-headline {
-    font-size: $h5;
-  }
+.webinar-main-text {
+  font-size: $h4;
+}
 
-  .webinar-main-text {
-    font-size: $h4;
-  }
+.webinar-subjects-icon-container {
+  width: 11rem;
+  height: 11rem;
+}
 
-  .webinar-subjects-icon-container {
-    width: 11rem;
-    height: 11rem;
-  }
+.webinar-subjects-icon {
+  height: 7rem;
+}
 
-  .webinar-subjects-icon {
-    height: 7rem;
-  }
+.webinar-subjects-icon-text,
+.webinar-moderators-image-name {
+  font-size: $h5;
+}
 
-  .webinar-subjects-icon-text,
-  .webinar-moderators-image-name {
-    font-size: $h5;
-  }
+.webinar-moderators-image-container {
+  width: 11.5rem;
+  height: 11.5rem;
+}
 
-  .webinar-moderators-image-container {
-    width: 11.5rem;
-    height: 11.5rem;
-  }
+.webinar-moderators-image {
+  height: 11rem;
+}
 
-  .webinar-moderators-image {
-    height: 11rem;
-  }
-
-  .webinar-moderators-image-text {
-    font-size: $h6;
-  }
+.webinar-moderators-image-text {
+  font-size: $h6;
 }
 
 // Large
@@ -1658,57 +1434,9 @@
 
   // ***** Project *****
   .project-main-image-headline {
-    &.project-main-image-headline-atlas-azimuth {
-      @include projectHeadline(20%);
+    &.project-main-image-headline-prestige-estates {
+      @include projectHeadline(22%);
     }
-    &.project-main-image-headline-fort-noks-premier-suites {
-      @include projectHeadline(31%);
-    }
-    &.project-main-image-headline-green-fort-suites {
-      @include projectHeadline(23%);
-    }
-    &.project-main-image-headline-premier-fort-beach {
-      @include projectHeadline(25%);
-    }
-    &.project-main-image-headline-prestige-fort-beach {
-      @include projectHeadline(25%);
-    }
-    &.project-main-image-headline-nessebar-fort-residence {
-      @include projectHeadline(32%);
-    }
-    &.project-main-image-headline-lighthouse-premium-apartments {
-      @include projectHeadline(35%);
-    }
-    &.project-main-image-headline-sinemorets-villas {
-      @include projectHeadline(23%);
-    }
-    // &.project-main-image-headline-atlantis-aria-3 {
-    //   @include projectHeadline(20%);
-    // }
-    // &.project-main-image-headline-atlantis-euphoria {
-    //   @include projectHeadline(23%);
-    // }
-    // &.project-main-image-headline-atlantis-barcode {
-    //   @include projectHeadline(23%);
-    // }
-    // &.project-main-image-headline-atlantis-barcode-2 {
-    //   @include projectHeadline(23%);
-    // }
-    // &.project-main-image-headline-villa-margarita {
-    //   @include projectHeadline(20%);
-    // }
-    // &.project-main-image-headline-mellia-florance {
-    //   @include projectHeadline(20%);
-    // }
-    // &.project-main-image-headline-mountain-residence {
-    //   @include projectHeadline(32%);
-    // }
-    // &.project-main-image-headline-mountain-view {
-    //   @include projectHeadline(29%);
-    // }
-    // &.project-main-image-headline-mountain-boutique {
-    //   @include projectHeadline(31%);
-    // }
   }
 
   .project-gallery-image {
@@ -1727,86 +1455,13 @@
   }
 
   .project-mid-image-container {
-    &.project-mid-image-container-atlas-azimuth {
+    &.project-mid-image-container-prestige-estates {
       @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp',
+        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp',
         100% 60rem,
-        70rem
+        60rem
       );
     }
-    &.project-mid-image-container-premier-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg',
-        100% 70rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-prestige-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp',
-        100% 70rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-sinemorets-villas {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp',
-        100% 70rem,
-        40rem
-      );
-    }
-    // &.project-mid-image-container-atlantis-aria-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716478681900-Two-bedroom-apartment-C-808-in-Atlantis-Aria-2-2.jpg',
-    //     contain,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-aria-3 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-3-images/1718892982831-atlantis-aria-3-project.jpg',
-    //     contain,
-    //     34rem
-    //   );
-    // }
-    // &.project-mid-image-container-villa-margarita {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/villa-margarita-images/1735041996753-villa-margerita-5.jpg',
-    //     100% 60rem,
-    //     70rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-residence {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-mountain-view-residence-images/1735210321595-sofia-mountain-view-residence-8.webp',
-    //     100% 50rem,
-    //     50rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-view {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-vitosha-mountain-view-images/1735387898022-vitosha-mountain-view-4.webp',
-    //     100% 70rem,
-    //     70rem
-    //   );
-    // }
-    // &.project-mid-image-container-camelot {
-    //   @include projectMiddleImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/camelot-images/1725787155348-camelot-48.webp', 100% 50rem, 50rem);
-    // }
-    // &.project-mid-image-container-sofia-b5 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-b4-images/1726409077338-sofia-b5-building-2.webp',
-    //     100% 50rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-samokov {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/samokov-images/1727012351227-samokov-development-2.webp',
-    //     100% 55rem,
-    //     65rem
-    //   );
-    // }
   }
 
   .project-installment-scheme-table {
@@ -2232,75 +1887,10 @@
 
   // ***** Project *****
   .project-main-image-headline {
-    &.project-main-image-headline-atlas-azimuth {
-      @include projectHeadline(31%);
-      font-size: $h0;
-    }
-    &.project-main-image-headline-fort-noks-premier-suites {
+    &.project-main-image-headline-prestige-estates {
       @include projectHeadline(36%);
       font-size: $h0;
     }
-    &.project-main-image-headline-green-fort-suites {
-      @include projectHeadline(35%);
-      font-size: $h0;
-    }
-    &.project-main-image-headline-premier-fort-beach {
-      @include projectHeadline(35%);
-      font-size: $h0;
-    }
-    &.project-main-image-headline-prestige-fort-beach {
-      @include projectHeadline(35%);
-      font-size: $h0;
-    }
-    &.project-main-image-headline-nessebar-fort-residence {
-      @include projectHeadline(35%);
-      font-size: $h0;
-    }
-    &.project-main-image-headline-lighthouse-premium-apartments {
-      @include projectHeadline(35%);
-      font-size: $h0;
-    }
-    &.project-main-image-headline-sinemorets-villas {
-      @include projectHeadline(35%);
-      font-size: $h0;
-    }
-    // &.project-main-image-headline-atlantis-aria-3 {
-    //   @include projectHeadline(32%);
-    //   font-size: $h0;
-    // }
-
-    // &.project-main-image-headline-atlantis-euphoria {
-    //   @include projectHeadline(37%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-atlantis-barcode {
-    //   @include projectHeadline(37%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-atlantis-barcode-2 {
-    //   @include projectHeadline(37%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-villa-margarita {
-    //   @include projectHeadline(31%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-mellia-florance {
-    //   @include projectHeadline(33%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-mountain-residence {
-    //   @include projectHeadline(35%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-mountain-view {
-    //   @include projectHeadline(35%);
-    //   font-size: $h0;
-    // }
-    // &.project-main-image-headline-mountain-boutique {
-    //   @include projectHeadline(36%);
-    //   font-size: $h0;
-    // }
   }
 
   .project-gallery-image {
@@ -2319,111 +1909,13 @@
   }
 
   .project-mid-image-container {
-    &.project-mid-image-container-atlas-azimuth {
+    &.project-mid-image-container-prestige-estates {
       @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp',
-        100% 80rem,
-        90rem
-      );
-    }
-    &.project-mid-image-container-premier-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg',
-        100% 80rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-prestige-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp',
-        100% 80rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-nessebar-fort-residence {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596962-nessebar-fort-residence-30.webp',
+        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp',
         100% 70rem,
-        40rem
+        80rem
       );
     }
-    &.project-mid-image-container-lighthouse-premium-apartments {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp',
-        100% 70rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-sinemorets-villas {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp',
-        100% 80rem,
-        50rem
-      );
-    }
-    // &.project-mid-image-container-atlantis-aria-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716478681900-Two-bedroom-apartment-C-808-in-Atlantis-Aria-2-2.jpg',
-    //     contain,
-    //     45rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-aria-3 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-3-images/1718892982831-atlantis-aria-3-project.jpg',
-    //     contain,
-    //     45rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-euphoria {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/euphoria-images/1719320290027-atlantis-euphoria-middle-image.webp',
-    //     contain,
-    //     45rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-barcode {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-images/1720087071323-atlantis-barcode-project-mid-image.webp',
-    //     120rem 70rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-barcode-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-2-images/1732263638743-atlantis-barcode-2-project-13.webp',
-    //     120rem 70rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-villa-margarita {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/villa-margarita-images/1735041996753-villa-margerita-5.jpg',
-    //     100% 80rem,
-    //     90rem
-    //   );
-    // }
-    // &.project-mid-image-container-mellia-florance {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/mellia-florance-images/1735134645819-mellia-florance-4.webp',
-    //     100% 80rem,
-    //     90rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-residence {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-mountain-view-residence-images/1735210321595-sofia-mountain-view-residence-8.webp',
-    //     100% 60rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-view {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-vitosha-mountain-view-images/1735387898022-vitosha-mountain-view-4.webp',
-    //     100% 80rem,
-    //     80rem
-    //   );
-    // }
   }
 
   .project-map {
@@ -2629,40 +2121,9 @@
 
   // ***** Project *****
   .project-main-image-headline {
-    &.project-main-image-headline-atlas-azimuth {
-      @include projectHeadline(26%);
+    &.project-main-image-headline-prestige-estates {
+      @include projectHeadline(25%);
     }
-    &.project-main-image-headline-green-fort-suites {
-      @include projectHeadline(29%);
-    }
-    &.project-main-image-headline-premier-fort-beach {
-      @include projectHeadline(32%);
-    }
-    &.project-main-image-headline-prestige-fort-beach {
-      @include projectHeadline(32%);
-    }
-    &.project-main-image-headline-sinemorets-villas {
-      @include projectHeadline(32%);
-    }
-    // &.project-main-image-headline-atlantis-aria-3 {
-    //   @include projectHeadline(28%);
-    // }
-
-    // &.project-main-image-headline-atlantis-euphoria {
-    //   @include projectHeadline(33%);
-    // }
-    // &.project-main-image-headline-atlantis-barcode {
-    //   @include projectHeadline(33%);
-    // }
-    // &.project-main-image-headline-atlantis-barcode-2 {
-    //   @include projectHeadline(33%);
-    // }
-    // &.project-main-image-headline-villa-margarita {
-    //   @include projectHeadline(26%);
-    // }
-    // &.project-main-image-headline-mellia-florance {
-    //   @include projectHeadline(28%);
-    // }
   }
 
   .project-gallery-image {
@@ -2671,93 +2132,13 @@
   }
 
   .project-mid-image-container {
-    &.project-mid-image-container-atlas-azimuth {
+    &.project-mid-image-container-prestige-estates {
       @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp',
+        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp',
         100% 90rem,
         100rem
       );
     }
-    &.project-mid-image-container-premier-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg',
-        100% 80rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-prestige-fort-beach {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp',
-        100% 90rem,
-        40rem
-      );
-    }
-    &.project-mid-image-container-lighthouse-premium-apartments {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp',
-        100% 70rem,
-        50rem
-      );
-    }
-    &.project-mid-image-container-sinemorets-villas {
-      @include projectMiddleImage(
-        'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp',
-        100% 100rem,
-        50rem
-      );
-    }
-    // &.project-mid-image-container-camelot {
-    //   @include projectMiddleImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/camelot-images/1725787155348-camelot-48.webp', 100% 70rem, 60rem);
-    // }
-    // &.project-mid-image-container-samokov {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/samokov-images/1727012351227-samokov-development-2.webp',
-    //     100% 80rem,
-    //     90rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-aria-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716478681900-Two-bedroom-apartment-C-808-in-Atlantis-Aria-2-2.jpg',
-    //     155rem 75rem,
-    //     50rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-euphoria {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/euphoria-images/1719320290027-atlantis-euphoria-middle-image.webp',
-    //     155rem 75rem,
-    //     50rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-barcode {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-images/1720087071323-atlantis-barcode-project-mid-image.webp',
-    //     155rem 80rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-atlantis-barcode-2 {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-2-images/1732263638743-atlantis-barcode-2-project-13.webp',
-    //     155rem 80rem,
-    //     60rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-residence {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-mountain-view-residence-images/1735210321595-sofia-mountain-view-residence-8.webp',
-    //     100% 70rem,
-    //     70rem
-    //   );
-    // }
-    // &.project-mid-image-container-mountain-view {
-    //   @include projectMiddleImage(
-    //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-vitosha-mountain-view-images/1735387898022-vitosha-mountain-view-4.webp',
-    //     100% 90rem,
-    //     90rem
-    //   );
-    // }
   }
 
   .project-installment-scheme-table-col {

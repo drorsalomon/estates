@@ -14,151 +14,16 @@
 }
 
 .project-main-image-col {
-  &.project-main-image-col-atlas-azimuth {
-    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631412992-azimuth-project-10.webp');
+  &.project-main-image-col-prestige-estates {
+    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288423-prestige-estates-1.webp');
   }
-  &.project-main-image-col-fort-noks-premier-suites {
-    @include projectBackgroundImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/fort-noks-premier-suits/fort-noks-premier-suits1744278279030-fort-noks-premier-suits-3.webp'
-    );
-  }
-  &.project-main-image-col-green-fort-suites {
-    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/green-fort-suites/1744367105494-green-fort-suites-6.webp');
-  }
-  &.project-main-image-col-premier-fort-beach {
-    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313268-premier-fort-beach-47.jpg');
-  }
-  &.project-main-image-col-prestige-fort-beach {
-    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745788-prestige-fort-beach-3.webp');
-  }
-  &.project-main-image-col-nessebar-fort-residence {
-    @include projectBackgroundImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596814-nessebar-fort-residence-2.webp'
-    );
-  }
-  &.project-main-image-col-lighthouse-premium-apartments {
-    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894774-enkibuild-lighthouse-1.webp');
-  }
-  &.project-main-image-col-sinemorets-villas {
-    @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868381-sinemorets-villas-1.webp');
-  }
-  // &.project-main-image-col-atlantis-aria-2 {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716487726018-One-bedroom-apartment-in-Atlantis-Aria-2-1.jpg'
-  //   );
-  // }
-  // &.project-main-image-col-atlantis-aria-3 {
-  //   @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-3-images/1716801144895-atlantis-aria-3-3.webp');
-  // }
-  // &.project-main-image-col-atlantis-euphoria {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/euphoria-images/1716710316107-One-bedroom-apartment-with-east-exposure-euphoria-2.webp'
-  //   );
-  // }
-  // &.project-main-image-col-atlantis-barcode {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-images/1720087071095-atlantis-barcode-project-1.webp'
-  //   );
-  // }
-  // &.project-main-image-col-atlantis-barcode-2 {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-2-images/1732263638724-atlantis-barcode-2-project-7.webp'
-  //   );
-  // }
-
-  // &.project-main-image-col-villa-margarita {
-  //   @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/villa-margarita-images/1735041996715-villa-margerita-1.jpg');
-  // }
-  // &.project-main-image-col-mellia-florance {
-  //   @include projectBackgroundImage('https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/mellia-florance-images/1735134645777-mellia-florance-1.webp');
-  // }
-  // &.project-main-image-col-mountain-residence {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-mountain-view-residence-images/1735210321587-sofia-mountain-view-residence-6.webp'
-  //   );
-  // }
-  // &.project-main-image-col-mountain-view {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-vitosha-mountain-view-images/1735387897986-vitosha-mountain-view-1.webp'
-  //   );
-  // }
-  // &.project-main-image-col-mountain-boutique {
-  //   @include projectBackgroundImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/mountain-view-boutique-images1736851154917-mountain-view-boutique-1.webp'
-  //   );
-  // }
 }
 
 .project-main-image-headline {
-  &.project-main-image-headline-atlas-azimuth {
+  &.project-main-image-headline-prestige-estates {
     @include projectHeadline(40%);
     font-size: $h2;
   }
-  &.project-main-image-headline-fort-noks-premier-suites {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  &.project-main-image-headline-green-fort-suites {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  &.project-main-image-headline-premier-fort-beach {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  &.project-main-image-headline-prestige-fort-beach {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  &.project-main-image-headline-nessebar-fort-residence {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  &.project-main-image-headline-lighthouse-premium-apartments {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  &.project-main-image-headline-sinemorets-villas {
-    @include projectHeadline(40%);
-    font-size: $h2;
-  }
-  // &.project-main-image-headline-atlantis-aria-3 {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-
-  // &.project-main-image-headline-atlantis-euphoria {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-atlantis-barcode {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-atlantis-barcode-2 {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-villa-margarita {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-mellia-florance {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-mountain-residence {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-mountain-view {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
-  // &.project-main-image-headline-mountain-boutique {
-  //   @include projectHeadline(40%);
-  //   font-size: $h2;
-  // }
 }
 
 .project-gallery-image {
@@ -245,111 +110,13 @@
 }
 
 .project-mid-image-container {
-  &.project-mid-image-container-atlas-azimuth {
+  &.project-mid-image-container-prestige-estates {
     @include projectMiddleImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp',
-      contain,
-      50rem
-    );
-  }
-  &.project-mid-image-container-premier-fort-beach {
-    @include projectMiddleImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg',
-      contain,
+      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp',
+      100% 25rem,
       30rem
     );
   }
-  &.project-mid-image-container-prestige-fort-beach {
-    @include projectMiddleImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp',
-      contain,
-      20rem
-    );
-  }
-  &.project-mid-image-container-nessebar-fort-residence {
-    @include projectMiddleImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596962-nessebar-fort-residence-30.webp',
-      contain,
-      20rem
-    );
-  }
-  &.project-mid-image-container-lighthouse-premium-apartments {
-    @include projectMiddleImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp',
-      contain,
-      15rem
-    );
-  }
-  &.project-mid-image-container-sinemorets-villas {
-    @include projectMiddleImage(
-      'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp',
-      contain,
-      15rem
-    );
-  }
-  // &.project-mid-image-container-atlantis-aria-2 {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-2-images/1716717336291-a3_94k-scaled.jpg',
-  //     100% 53rem,
-  //     60rem
-  //   );
-  // }
-  // &.project-mid-image-container-atlantis-aria-3 {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-aria-3-images/1718892982818-atlantis-aria-3-building.webp',
-  //     100% 53rem,
-  //     60rem
-  //   );
-  // }
-  // &.project-mid-image-container-atlantis-euphoria {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/euphoria-images/1719320290027-atlantis-euphoria-middle-image.webp',
-  //     65rem 45rem,
-  //     60rem
-  //   );
-  // }
-  // &.project-mid-image-container-atlantis-barcode {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-images/1720087071323-atlantis-barcode-project-mid-image.webp',
-  //     contain,
-  //     60rem
-  //   );
-  // }
-  // &.project-mid-image-container-atlantis-barcode-2 {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlantis-barcode-2-images/1732263638743-atlantis-barcode-2-project-13.webp',
-  //     100% 25rem,
-  //     25rem
-  //   );
-  // }
-  // &.project-mid-image-container-villa-margarita {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/villa-margarita-images/1735041996753-villa-margerita-5.jpg',
-  //     contain,
-  //     50rem
-  //   );
-  // }
-  // &.project-mid-image-container-mellia-florance {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/mellia-florance-images/1735134645819-mellia-florance-4.webp',
-  //     contain,
-  //     40rem
-  //   );
-  // }
-  // &.project-mid-image-container-mountain-residence {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-mountain-view-residence-images/1735210321595-sofia-mountain-view-residence-8.webp',
-  //     contain,
-  //     30rem
-  //   );
-  // }
-  // &.project-mid-image-container-mountain-view {
-  //   @include projectMiddleImage(
-  //     'https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sofia-vitosha-mountain-view-images/1735387898022-vitosha-mountain-view-4.webp',
-  //     contain,
-  //     30rem
-  //   );
-  // }
 }
 
 .project-map {

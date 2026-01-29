@@ -84,16 +84,6 @@
   .footer-icon {
     display: inline;
   }
-  .project-main-image-headline.project-main-image-headline-samokov {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
   .webinar-headline-img {
     height: 70rem;
   }
@@ -148,7 +138,7 @@
     font-size: 1.6rem;
   }
   .navbar-logo {
-    height: 6rem;
+    height: 3rem;
   }
   .hero-container {
     height: 55rem;
@@ -327,87 +317,10 @@
   .pricing-premium-badge {
     margin: 6rem 0 0 -3rem;
   }
-  .project-main-image-headline.project-main-image-headline-atlas-azimuth {
+  .project-main-image-headline.project-main-image-headline-prestige-estates {
     position: absolute;
     top: 50%;
-    left: 32%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-fort-noks-premier-suites {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-green-fort-suites {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-premier-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-prestige-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-nessebar-fort-residence {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-lighthouse-premium-apartments {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 4.8rem;
-  }
-  .project-main-image-headline.project-main-image-headline-sinemorets-villas {
-    position: absolute;
-    top: 50%;
-    left: 36%;
+    left: 37%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -427,63 +340,51 @@
     height: 40rem;
     width: 30rem;
   }
-  .project-mid-image-container.project-mid-image-container-lighthouse-premium-apartments {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 35rem;
-    height: 30rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-sinemorets-villas {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 35rem;
-    height: 30rem;
-    width: 100%;
-  }
-  .project-installment-scheme-table {
-    width: 95rem !important;
-  }
-  .project-installment-scheme-table th,
-  .project-installment-scheme-table td {
-    font-size: 1.6rem;
-  }
-  .landing-main-image {
-    height: 24.5rem;
-  }
-  .webinar-headline-img {
-    height: 65rem;
-  }
-  .webinar-headline-text-top {
-    top: 27%;
-  }
-  .webinar-headline-text-bottom {
-    top: 32%;
-  }
-  .webinar-contact-us-top-container {
-    top: 69%;
-  }
-  .webinar-input-name,
-  .webinar-input-phone,
-  .webinar-input-email {
-    width: 37rem !important;
-  }
-  .webinar-form-check {
-    margin-left: 1rem;
-  }
-  .alert {
-    width: 70%;
-    font-size: 1.6rem;
-  }
 }
+.project-installment-scheme-table {
+  width: 95rem !important;
+}
+
+.project-installment-scheme-table th,
+.project-installment-scheme-table td {
+  font-size: 1.6rem;
+}
+
+.landing-main-image {
+  height: 24.5rem;
+}
+
+.webinar-headline-img {
+  height: 65rem;
+}
+
+.webinar-headline-text-top {
+  top: 27%;
+}
+
+.webinar-headline-text-bottom {
+  top: 32%;
+}
+
+.webinar-contact-us-top-container {
+  top: 69%;
+}
+
+.webinar-input-name,
+.webinar-input-phone,
+.webinar-input-email {
+  width: 37rem !important;
+}
+
+.webinar-form-check {
+  margin-left: 1rem;
+}
+
+.alert {
+  width: 70%;
+  font-size: 1.6rem;
+}
+
 @media only screen and (min-width: 768px) {
   .webinar-mainpage-text,
   .webinar-mainpage-text span {
@@ -761,65 +662,26 @@
   .pricing-tag {
     font-size: 2.4rem;
   }
-  .project-main-image-headline.project-main-image-headline-atlas-azimuth {
+  .project-main-image-headline.project-main-image-headline-prestige-estates {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 28%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-weight: 600;
     color: #ffffff;
   }
-  .project-main-image-headline.project-main-image-headline-green-fort-suites {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-premier-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-prestige-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-lighthouse-premium-apartments {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-sinemorets-villas {
-    position: absolute;
-    top: 50%;
-    left: 29%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
+  .project-mid-image-container.project-mid-image-container-prestige-estates {
+    position: relative;
+    padding: 0 !important;
+    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 50rem;
+    height: 40rem;
+    width: 100%;
   }
   .project-gallery-image {
     height: 17rem;
@@ -833,126 +695,90 @@
     height: 45rem;
     width: 35rem;
   }
-  .project-mid-image-container.project-mid-image-container-premier-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 60rem;
-    height: 35rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-prestige-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 60rem;
-    height: 35rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-nessebar-fort-residence {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596962-nessebar-fort-residence-30.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 50rem;
-    height: 35rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-lighthouse-premium-apartments {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 50rem;
-    height: 35rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-sinemorets-villas {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 50rem;
-    height: 35rem;
-    width: 100%;
-  }
-  .footer-border {
-    width: 15rem;
-  }
-  .footer-social-icon {
-    width: 4.5rem;
-    height: 4.5rem;
-  }
-  .landing-text {
-    font-size: 1.6rem;
-  }
-  .landing-main-image {
-    height: 31rem;
-  }
-  .landing-contact-us-input {
-    width: 35rem !important;
-  }
-  .webinar-headline-img {
-    height: 68rem;
-  }
-  .webinar-headline {
-    font-size: 3.4rem;
-    width: 55rem;
-    top: 15%;
-  }
-  .webinar-headline-text-top,
-  .webinar-headline-text-bottom {
-    font-size: 2.4rem;
-  }
-  .webinar-headline-text-top {
-    top: 30%;
-  }
-  .webinar-headline-text-bottom {
-    top: 35%;
-  }
-  .webinar-contact-us-top-container {
-    top: 71%;
-  }
-  .webinar-contact-us-headline {
-    font-size: 2rem;
-  }
-  .webinar-main-text {
-    font-size: 2.4rem;
-  }
-  .webinar-subjects-icon-container {
-    width: 11rem;
-    height: 11rem;
-  }
-  .webinar-subjects-icon {
-    height: 7rem;
-  }
-  .webinar-subjects-icon-text,
-  .webinar-moderators-image-name {
-    font-size: 2rem;
-  }
-  .webinar-moderators-image-container {
-    width: 11.5rem;
-    height: 11.5rem;
-  }
-  .webinar-moderators-image {
-    height: 11rem;
-  }
-  .webinar-moderators-image-text {
-    font-size: 1.6rem;
-  }
 }
+.footer-border {
+  width: 15rem;
+}
+
+.footer-social-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.landing-text {
+  font-size: 1.6rem;
+}
+
+.landing-main-image {
+  height: 31rem;
+}
+
+.landing-contact-us-input {
+  width: 35rem !important;
+}
+
+.webinar-headline-img {
+  height: 68rem;
+}
+
+.webinar-headline {
+  font-size: 3.4rem;
+  width: 55rem;
+  top: 15%;
+}
+
+.webinar-headline-text-top,
+.webinar-headline-text-bottom {
+  font-size: 2.4rem;
+}
+
+.webinar-headline-text-top {
+  top: 30%;
+}
+
+.webinar-headline-text-bottom {
+  top: 35%;
+}
+
+.webinar-contact-us-top-container {
+  top: 71%;
+}
+
+.webinar-contact-us-headline {
+  font-size: 2rem;
+}
+
+.webinar-main-text {
+  font-size: 2.4rem;
+}
+
+.webinar-subjects-icon-container {
+  width: 11rem;
+  height: 11rem;
+}
+
+.webinar-subjects-icon {
+  height: 7rem;
+}
+
+.webinar-subjects-icon-text,
+.webinar-moderators-image-name {
+  font-size: 2rem;
+}
+
+.webinar-moderators-image-container {
+  width: 11.5rem;
+  height: 11.5rem;
+}
+
+.webinar-moderators-image {
+  height: 11rem;
+}
+
+.webinar-moderators-image-text {
+  font-size: 1.6rem;
+}
+
 @media only screen and (min-width: 992px) {
   .btn-cta,
   .btn-cta--offcanvas,
@@ -1278,80 +1104,10 @@
     height: 50%;
     width: 50%;
   }
-  .project-main-image-headline.project-main-image-headline-atlas-azimuth {
+  .project-main-image-headline.project-main-image-headline-prestige-estates {
     position: absolute;
     top: 50%;
-    left: 20%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-fort-noks-premier-suites {
-    position: absolute;
-    top: 50%;
-    left: 31%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-green-fort-suites {
-    position: absolute;
-    top: 50%;
-    left: 23%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-premier-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-prestige-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-nessebar-fort-residence {
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-lighthouse-premium-apartments {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-sinemorets-villas {
-    position: absolute;
-    top: 50%;
-    left: 23%;
+    left: 22%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -1370,48 +1126,15 @@
     height: 50rem;
     width: 40rem;
   }
-  .project-mid-image-container.project-mid-image-container-atlas-azimuth {
+  .project-mid-image-container.project-mid-image-container-prestige-estates {
     position: relative;
     padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp");
+    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 60rem;
-    height: 70rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-premier-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 70rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-prestige-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 70rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-sinemorets-villas {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 70rem;
-    height: 40rem;
+    height: 60rem;
     width: 100%;
   }
   .project-installment-scheme-table {
@@ -1734,87 +1457,10 @@
     max-width: 99.2rem;
     margin: auto !important;
   }
-  .project-main-image-headline.project-main-image-headline-atlas-azimuth {
-    position: absolute;
-    top: 50%;
-    left: 31%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-fort-noks-premier-suites {
+  .project-main-image-headline.project-main-image-headline-prestige-estates {
     position: absolute;
     top: 50%;
     left: 36%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-green-fort-suites {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-premier-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-prestige-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-nessebar-fort-residence {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-lighthouse-premium-apartments {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-    font-size: 10rem;
-  }
-  .project-main-image-headline.project-main-image-headline-sinemorets-villas {
-    position: absolute;
-    top: 50%;
-    left: 35%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -1834,70 +1480,15 @@
     height: 55rem;
     width: 45rem;
   }
-  .project-mid-image-container.project-mid-image-container-atlas-azimuth {
+  .project-mid-image-container.project-mid-image-container-prestige-estates {
     position: relative;
     padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 80rem;
-    height: 90rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-premier-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 80rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-prestige-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 80rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-nessebar-fort-residence {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/nessebar-fort-residence/1744635596962-nessebar-fort-residence-30.webp");
+    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 70rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-lighthouse-premium-apartments {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 70rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-sinemorets-villas {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 80rem;
-    height: 50rem;
+    height: 80rem;
     width: 100%;
   }
   .project-map {
@@ -2050,50 +1641,10 @@
   .en-calendly-widget-container {
     top: 195%;
   }
-  .project-main-image-headline.project-main-image-headline-atlas-azimuth {
+  .project-main-image-headline.project-main-image-headline-prestige-estates {
     position: absolute;
     top: 50%;
-    left: 26%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-green-fort-suites {
-    position: absolute;
-    top: 50%;
-    left: 29%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-premier-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-prestige-fort-beach {
-    position: absolute;
-    top: 50%;
-    left: 32%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: 600;
-    color: #ffffff;
-  }
-  .project-main-image-headline.project-main-image-headline-sinemorets-villas {
-    position: absolute;
-    top: 50%;
-    left: 32%;
+    left: 25%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -2104,59 +1655,15 @@
     height: 25rem;
     width: 43rem;
   }
-  .project-mid-image-container.project-mid-image-container-atlas-azimuth {
+  .project-mid-image-container.project-mid-image-container-prestige-estates {
     position: relative;
     padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/atlas-azimuth-images/1727631413055-azimuth-project-21.webp");
+    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-estates-images/1769597288463-prestige-estates-2.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 90rem;
     height: 100rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-premier-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/premier-fort-beach/1744465313262-premier-fort-beach-46.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 80rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-prestige-fort-beach {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/prestige-fort-beach/1744563745815-prestige-fort-beach-8.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 90rem;
-    height: 40rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-lighthouse-premium-apartments {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/enkibuild-lighthouse/1748510894808-enkibuild-lighthouse-3.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 70rem;
-    height: 50rem;
-    width: 100%;
-  }
-  .project-mid-image-container.project-mid-image-container-sinemorets-villas {
-    position: relative;
-    padding: 0 !important;
-    background-image: linear-gradient(to right bottom, rgba(37, 48, 70, 0), rgba(37, 48, 70, 0)), url("https://dirabulgaritbucket.s3.eu-north-1.amazonaws.com/sinemorets-villas/1748606868448-sinemorets-villas-13.webp");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100rem;
-    height: 50rem;
     width: 100%;
   }
   .project-installment-scheme-table-col {
