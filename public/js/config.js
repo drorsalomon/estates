@@ -167,7 +167,7 @@ export const Elements = {
 };
 
 export const baseDevUrl = 'http://127.0.0.1:8000/';
-export const baseProdUrl = 'https://estates-9vz9.onrender.com';
+export const baseProdUrl = 'https://estates-9vz9.onrender.com/';
 
 export const euroIconSrc = '/img/icons/euro.svg';
 export const mobileEuroIconSrc = '/img/icons/euro-white.svg';
